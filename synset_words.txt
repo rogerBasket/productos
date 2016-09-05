@@ -1,0 +1,15 @@
+corona	cerveza
+chocokrispis	cereal
+herbol	shampoo
+saba toallas	femeninas
+alpura	leche
+axe	desodorante
+canelitas	galletas
+zest	jabon
+123	aceite
+nesquik	chocolate en polvo
+holanda	helado
+doritos	comida chatarra
+yakult	lacteo fermentado
+cocacola	refresco
+danup	yogurt
