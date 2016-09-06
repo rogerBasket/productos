@@ -7,7 +7,7 @@ from urls_mongo import getTotalResults
 from search_mongo import getDocumentByCategoria
 
 RESPUESTAS = 10
-IMAGES = 100
+IMAGES = 10
 
 def getKeys(properties):
 	f = open(properties,'r')
@@ -35,10 +35,11 @@ def main():
 	global IMAGES
 
 	try:
-		developer_key, custom_search_id = getKeys('google_api_dev.prop')
-		#developer_key, custom_search_id = getKeys('google_api_prod.prop')
+		#developer_key, custom_search_id = getKeys('google_api_dev.prop')
+		developer_key, custom_search_id = getKeys('google_api_prod.prop')
 	except:
 		print 'parametros del archivo incorrectos'
+		exit()
 
 	print developer_key, custom_search_id
 
@@ -52,19 +53,20 @@ def main():
 	urls = db.urls
 
 	productos = getDocumentByCategoria(search,'refresco').next()
+	
 	'''
 	print len(productos['descripcion'][0]['busqueda'])
 	print json.dumps(productos,indent=4,separators=(';',':'))
 	'''
-
-	for i in productos['descripcion']:
-		for j in i['busqueda']:
+	
+	for i in [productos['descripcion'][0]]:
+		for j in [i['busqueda'][0]]:
 			flag = True
+			#print j, type(j)
 			for k in peticiones():
-				#print j
 
 				webService = service.cse().list(
-					q=j,
+					q='nike',
 					cx=custom_search_id.split('=')[1],
 					filter='1',
 					searchType='image',
@@ -72,19 +74,23 @@ def main():
 					start=k)
 
 				#print webService.to_json()
+				urlsImages = webService.execute()
+				urlsImages['categoria'] = productos['categoria']
+				urlsImages['descripcion'] = i['nombre']
 
-				resp = webService.execute()
+				urlsJson = json.dumps(urlsImages,indent=4,separators=(',',':'))
+	
+				#print urlsJson
+				#print type(urlsImages), type(urlsJson)
+
+				urls.insert(urlsImages)
 
 				if flag:
-					totalResults = getTotalResults(search).next()
-					print totalResults
+					totalResults = getTotalResults(urls)
+					#print int(totalResults)
 					if totalResults < IMAGES:
 						IMAGES = totalResults
 					flag = False
-
-	'''
-		print search.insert(resp)
-	'''
 
 if __name__ == '__main__':
 	main()

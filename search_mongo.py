@@ -1,2 +1,2 @@
 def getDocumentByCategoria(search, categoria):
-	return search.find({'categoria':categoria},{'categoria':0,'_id':0})
+	return search.find({'categoria':categoria},{'descripcion':1,'categoria':1,'_id':0})
