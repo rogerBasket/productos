@@ -10,7 +10,7 @@
 				"coca",
 				"cocacola 600",
 				"cocacola 1 lt",
-				"cocacola  2 lt",
+				"cocacola 2 lt",
 				"coca de lata"
 			]
 		},
@@ -22,7 +22,7 @@
 				"pepsi",
 				"pepsi 600",
 				"pepsi 1 lt",
-				"pepsi  2 lt",
+				"pepsi 2 lt",
 				"pepsi de lata"
 			]
 		},
@@ -34,7 +34,7 @@
 				"sprite",
 				"sprite 600",
 				"sprite 1 lt",
-				"sprite  2 lt",
+				"sprite 2 lt",
 				"lata de sprite"
 			]
 		},
@@ -46,7 +46,7 @@
 				"fanta",
 				"fanta 600",
 				"fanta 1 lt",
-				"fanta  2 lt",
+				"fanta 2 lt",
 				"lata de fanta"
 
 			]
@@ -59,7 +59,7 @@
 				"mirinda",
 				"mirinda 600",
 				"mirinda 1 lt",
-				"mirinda  2 lt",
+				"mirinda 2 lt",
 				"lata de mirinda"
 			]
 		},
@@ -71,7 +71,7 @@
 				"delaware punch",
 				"delaware punch 600",
 				"delaware punch 1 lt",
-				"delaware punch  2 lt",
+				"delaware punch 2 lt",
 				"lata de delaware punch"
 			]
 		},
@@ -83,7 +83,7 @@
 				"sidral mundet",
 				"sidral mundet 600",
 				"sidral mundet 1 lt",
-				"sidral mundet  2 lt",
+				"sidral mundet 2 lt",
 				"lata de sidral mundet"
 			]
 		},
@@ -95,7 +95,7 @@
 				"squirt",
 				"squirt 600",
 				"squirt 1 lt",
-				"squirt  2 lt",
+				"squirt 2 lt",
 				"lata de squirt",
 				"refresco squirt"
 			]
@@ -108,7 +108,7 @@
 				"senzao",
 				"senzao 600",
 				"senzao 1 lt",
-				"senzao  2 lt",
+				"senzao 2 lt",
 				"lata de senzao",
 				"refresco senzao"
 			]
@@ -121,7 +121,7 @@
 				"fresca",
 				"fresca 600",
 				"fresca 1 lt",
-				"fresca  2 lt",
+				"fresca 2 lt",
 				"lata de fresca",
 				"refresco fresca"
 			]
@@ -134,7 +134,7 @@
 				"yoli",
 				"yoli 600",
 				"yoli 1 lt",
-				"yoli  2 lt",
+				"yoli 2 lt",
 				"lata de yoli",
 				"refresco yoli"
 			]
@@ -147,7 +147,7 @@
 				"Manzanita Sol",
 				"Manzanita Sol 600",
 				"Manzanita Sol 1 lt",
-				"Manzanita Sol  2 lt",
+				"Manzanita Sol 2 lt",
 				"lata de Manzanita Sol",
 				"refresco Manzanita Sol"
 			]
@@ -160,7 +160,7 @@
 				"7Up",
 				"7Up 600",
 				"7Up 1 lt",
-				"7Up  2 lt",
+				"7Up 2 lt",
 				"lata de 7Up",
 				"refresco 7Up"
 			]
@@ -173,7 +173,7 @@
 				"Coca Cola Zero",
 				"Coca Cola Zero 600",
 				"Coca Cola Zero 1 lt",
-				"Coca Cola Zero  2 lt",
+				"Coca Cola Zero 2 lt",
 				"lata de Coca Cola Zero",
 				"refresco Coca Cola Zero"
 			]
@@ -186,7 +186,7 @@
 				"Coca Cola Light",
 				"Coca Cola Light 600",
 				"Coca Cola Light 1 lt",
-				"Coca Cola Light  2 lt",
+				"Coca Cola Light 2 lt",
 				"lata de Coca Cola Light",
 				"refresco Coca Cola Light"
 			]
@@ -199,7 +199,7 @@
 				"Nestea",
 				"Nestea 600",
 				"Nestea 1 lt",
-				"Nestea  2 lt",
+				"Nestea 2 lt",
 				"lata de Nestea",
 				"refresco Nestea"
 			]
@@ -212,7 +212,7 @@
 				"sangria señorial",
 				"sangria señorial 600",
 				"sangria señorial 1 lt",
-				"sangria señorial  2 lt",
+				"sangria señorial 2 lt",
 				"lata de sangria señorial",
 				"refresco sangria señorial"
 			]
@@ -220,7 +220,7 @@
 	]
 }
 {
-	"categoria": "yogurt",
+	"categoria": "yogur",
 	"descripcion": [
 		{
 			"nombre" : "yogur lala",
@@ -230,7 +230,7 @@
 				"yogur lala",
 				"yogur lala 600",
 				"yogur lala 1 lt",
-				"yogur lala  2 lt",
+				"yogur lala 2 lt",
 				"yogur lala bebible"
 			]
 		},
@@ -242,7 +242,7 @@
 				"yogur danone",
 				"yogur danone 600",
 				"yogur danone 1 lt",
-				"yogur danone  2 lt",
+				"yogur danone 2 lt",
 				"yogur danone bebible"
 			]
 		},
@@ -254,7 +254,7 @@
 				"yogur yoplait",
 				"yogur yoplait 600",
 				"yogur yoplait 1 lt",
-				"yogur yoplait  2 lt",
+				"yogur yoplait 2 lt",
 				"yogur yoplait bebible"
 			]
 		},
@@ -266,7 +266,7 @@
 				"yogur yoplait",
 				"yogur yoplait 600",
 				"yogur yoplait 1 lt",
-				"yogur yoplait  2 lt",
+				"yogur yoplait 2 lt",
 				"yogur yoplait bebible"
 			]
 		},
@@ -278,7 +278,7 @@
 				"yogur nestle",
 				"yogur nestle 600",
 				"yogur nestle 1 lt",
-				"yogur nestle  2 lt",
+				"yogur nestle 2 lt",
 				"yogur nestle bebible"
 			]
 		},
@@ -290,7 +290,7 @@
 				"yogur santa clara",
 				"yogur santa clara 600",
 				"yogur santa clara 1 lt",
-				"yogur santa clara  2 lt",
+				"yogur santa clara 2 lt",
 				"yogur santa clara bebible"
 			]
 		},
@@ -302,7 +302,7 @@
 				"yogur Aldia",
 				"yogur Aldia 600",
 				"yogur Aldia 1 lt",
-				"yogur Aldia  2 lt",
+				"yogur Aldia 2 lt",
 				"yogur Aldia bebible"
 			]
 		}
@@ -319,7 +319,7 @@
 				"boing de mango",
 				"boing de mango 600",
 				"boing de mango 1 lt",
-				"boing de mango  2 lt",
+				"boing de mango 2 lt",
 				"lata de boing de mango"
 			]
 		},
@@ -331,7 +331,7 @@
 				"boing de guayaba",
 				"boing de guayaba 600",
 				"boing de guayaba 1 lt",
-				"boing de guayaba  2 lt",
+				"boing de guayaba 2 lt",
 				"lata de boing de guayaba"
 			]
 		},
@@ -343,7 +343,7 @@
 				"boing de fresa",
 				"boing de fresa 600",
 				"boing de fresa 1 lt",
-				"boing de fresa  2 lt",
+				"boing de fresa 2 lt",
 				"lata de boing de fresa"
 			]
 		},
@@ -355,7 +355,7 @@
 				"boing de uva",
 				"boing de uva 600",
 				"boing de uva 1 lt",
-				"boing de uva  2 lt",
+				"boing de uva 2 lt",
 				"lata de boing de uva"
 			]
 		},
@@ -367,7 +367,7 @@
 				"boing de manzana",
 				"boing de manzana 600",
 				"boing de manzana 1 lt",
-				"boing de manzana  2 lt",
+				"boing de manzana 2 lt",
 				"lata de boing de manzana"
 			]
 		}
@@ -905,19 +905,19 @@
 		{
 			"nombre" : "chocolate en polvo Choco Bee ",
 			"busqueda" : [
-				"chocolate en polvo Choco Bee ",
-				"Choco Bee ",
-				"chocolate  Choco Bee ",
-				"bote de chocolate Choco Bee "
+				"chocolate en polvo Choco Bee",
+				"Choco Bee",
+				"chocolate Choco Bee",
+				"bote de chocolate Choco Bee"
 			]
 		},
 		{
-			"nombre" : "chocolate en polvo Jati ",
+			"nombre" : "chocolate en polvo Jati",
 			"busqueda" : [
-				"chocolate en polvo Jati ",
-				"Jati ",
-				"chocolate  Jati ",
-				"bote de chocolate Jati "
+				"chocolate en polvo Jati",
+				"Jati",
+				"chocolate Jati",
+				"bote de chocolate Jati"
 			]
 		},
 		{
@@ -930,12 +930,12 @@
 			]
 		},
 		{
-			"nombre" : "chocolate en polvo Hershey’s",
+			"nombre" : "chocolate en polvo Hershey",
 			"busqueda" : [
-				"chocolate en polvo Hershey’s",
-				"Hershey’s",
-				"chocolate  Hershey’s",
-				"bote de chocolate Hershey’s"
+				"chocolate en polvo Hershey",
+				"Hershey",
+				"chocolate  Hershey",
+				"bote de chocolate Hershey"
 			]
 		}
 	]
@@ -1042,7 +1042,8 @@
 		}
 	]
 }
-{	"categoria": "aceite",
+{	
+	"categoria": "aceite cocina",
 	"descripcion": [
 
 		{
