@@ -1,0 +1,3237 @@
+{
+	"categoria": "refresco",
+	"descripcion": [
+		{
+			"nombre": "cocacola",
+			"busqueda": [
+				"botella de cocacola",
+				"envase de cocacola",
+				"cocacola",
+				"coca",
+				"cocacola 600",
+				"cocacola 1 lt",
+				"cocacola 2 lt",
+				"coca de lata"
+			]
+		},
+		{
+			"nombre" : "pepsi",
+			"busqueda" : [
+				"botella de pepsi",
+				"envase de pepsi",
+				"pepsi",
+				"pepsi 600",
+				"pepsi 1 lt",
+				"pepsi 2 lt",
+				"pepsi de lata"
+			]
+		},
+		{
+			"nombre" : "sprite",
+			"busqueda" : [
+				"botella de sprite",
+				"envase de sprite",
+				"sprite",
+				"sprite 600",
+				"sprite 1 lt",
+				"sprite 2 lt",
+				"lata de sprite"
+			]
+		},
+		{
+			"nombre" : "fanta",
+			"busqueda" : [
+				"botella de fanta",
+				"envase de fanta",
+				"fanta",
+				"fanta 600",
+				"fanta 1 lt",
+				"fanta 2 lt",
+				"lata de fanta"
+
+			]
+		},
+		{
+			"nombre" : "mirinda",
+			"busqueda" : [
+				"botella de mirinda",
+				"envase de mirinda",
+				"mirinda",
+				"mirinda 600",
+				"mirinda 1 lt",
+				"mirinda 2 lt",
+				"lata de mirinda"
+			]
+		},
+		{
+			"nombre" : "delaware punch",
+			"busqueda" : [
+				"botella de delaware punch",
+				"envase de delaware punch",
+				"delaware punch",
+				"delaware punch 600",
+				"delaware punch 1 lt",
+				"delaware punch 2 lt",
+				"lata de delaware punch"
+			]
+		},
+		{
+			"nombre" : "sidral mundet",
+			"busqueda" : [
+				"botella de sidral mundet",
+				"envase de sidral mundet",
+				"sidral mundet",
+				"sidral mundet 600",
+				"sidral mundet 1 lt",
+				"sidral mundet 2 lt",
+				"lata de sidral mundet"
+			]
+		},
+		{
+			"nombre" : "squirt",
+			"busqueda" : [
+				"botella de squirt",
+				"envase de squirt",
+				"squirt",
+				"squirt 600",
+				"squirt 1 lt",
+				"squirt 2 lt",
+				"lata de squirt",
+				"refresco squirt"
+			]
+		},
+		{
+			"nombre" : "senzao",
+			"busqueda" : [
+				"botella de senzao",
+				"envase de senzao",
+				"senzao",
+				"senzao 600",
+				"senzao 1 lt",
+				"senzao 2 lt",
+				"lata de senzao",
+				"refresco senzao"
+			]
+		},
+		{
+			"nombre" : "fresca",
+			"busqueda" : [
+				"botella de fresca",
+				"envase de fresca",
+				"fresca",
+				"fresca 600",
+				"fresca 1 lt",
+				"fresca 2 lt",
+				"lata de fresca",
+				"refresco fresca"
+			]
+		},
+		{
+			"nombre" : "yoli",
+			"busqueda" : [
+				"botella de yoli",
+				"envase de yoli",
+				"yoli",
+				"yoli 600",
+				"yoli 1 lt",
+				"yoli 2 lt",
+				"lata de yoli",
+				"refresco yoli"
+			]
+		},
+		{
+			"nombre" : "Manzanita Sol",
+			"busqueda" : [
+				"botella de Manzanita Sol",
+				"envase de Manzanita Sol",
+				"Manzanita Sol",
+				"Manzanita Sol 600",
+				"Manzanita Sol 1 lt",
+				"Manzanita Sol 2 lt",
+				"lata de Manzanita Sol",
+				"refresco Manzanita Sol"
+			]
+		},
+		{
+			"nombre" : "7Up",
+			"busqueda" : [
+				"botella de 7Up",
+				"envase de 7Up",
+				"7Up",
+				"7Up 600",
+				"7Up 1 lt",
+				"7Up 2 lt",
+				"lata de 7Up",
+				"refresco 7Up"
+			]
+		},
+		{
+			"nombre" : "Coca Cola Zero",
+			"busqueda" : [
+				"botella de Coca Cola Zero",
+				"envase de Coca Cola Zero",
+				"Coca Cola Zero",
+				"Coca Cola Zero 600",
+				"Coca Cola Zero 1 lt",
+				"Coca Cola Zero 2 lt",
+				"lata de Coca Cola Zero",
+				"refresco Coca Cola Zero"
+			]
+		},
+		{
+			"nombre" : "Coca Cola Light",
+			"busqueda" : [
+				"botella de Coca Cola Light",
+				"envase de Coca Cola Light",
+				"Coca Cola Light",
+				"Coca Cola Light 600",
+				"Coca Cola Light 1 lt",
+				"Coca Cola Light 2 lt",
+				"lata de Coca Cola Light",
+				"refresco Coca Cola Light"
+			]
+		},
+		{
+			"nombre" : "Nestea",
+			"busqueda" : [
+				"botella de Nestea",
+				"envase de Nestea",
+				"Nestea",
+				"Nestea 600",
+				"Nestea 1 lt",
+				"Nestea 2 lt",
+				"lata de Nestea",
+				"refresco Nestea"
+			]
+		},
+		{
+			"nombre" : "sangria señorial",
+			"busqueda" : [
+				"botella de sangria señorial",
+				"envase de sangria señorial",
+				"sangria señorial",
+				"sangria señorial 600",
+				"sangria señorial 1 lt",
+				"sangria señorial 2 lt",
+				"lata de sangria señorial",
+				"refresco sangria señorial"
+			]
+		}
+	]
+}
+{
+	"categoria": "yogur",
+	"descripcion": [
+		{
+			"nombre" : "yogur",
+			"busqueda" : [
+				"botella de yogur",
+				"envase de yogur",
+				"yogur",
+				"yogur griego",
+				"yogur en botella",
+				"yogur marcas",
+				"yogur brands",
+				"yogur 600",
+				"yogur 1 lt",
+				"yogur 2 lt",
+				"yogur bebible"
+			]
+		},
+		{
+			"nombre" : "yogur lala",
+			"busqueda" : [
+				"botella de yogur lala",
+				"envase de yogur lala",
+				"yogur lala",
+				"yogur lala 600",
+				"yogur lala 1 lt",
+				"yogur lala 2 lt",
+				"yogur lala bebible"
+			]
+		},
+		{
+			"nombre" : "yogur danone",
+			"busqueda" : [
+				"botella de yogur danone",
+				"envase de yogur danone",
+				"yogur danone",
+				"yogur danone 600",
+				"yogur danone 1 lt",
+				"yogur danone 2 lt",
+				"yogur danone bebible"
+			]
+		},
+		{
+			"nombre" : "yogur yoplait",
+			"busqueda" : [
+				"botella de yogur yoplait",
+				"envase de yogur yoplait",
+				"yogur yoplait",
+				"yogur yoplait 600",
+				"yogur yoplait 1 lt",
+				"yogur yoplait 2 lt",
+				"yogur yoplait bebible"
+			]
+		},
+		{
+			"nombre" : "yogur yoplait",
+			"busqueda" : [
+				"botella de yogur yoplait",
+				"envase de yogur yoplait",
+				"yogur yoplait",
+				"yogur yoplait 600",
+				"yogur yoplait 1 lt",
+				"yogur yoplait 2 lt",
+				"yogur yoplait bebible"
+			]
+		},
+		{
+			"nombre" : "yogur nestle",
+			"busqueda" : [
+				"botella de yogur nestle",
+				"envase de yogur nestle",
+				"yogur nestle",
+				"yogur nestle 600",
+				"yogur nestle 1 lt",
+				"yogur nestle 2 lt",
+				"yogur nestle bebible"
+			]
+		},
+		{
+			"nombre" : "yogur santa clara",
+			"busqueda" : [
+				"botella de yogur santa clara",
+				"envase de yogur santa clara",
+				"yogur santa clara",
+				"yogur santa clara 600",
+				"yogur santa clara 1 lt",
+				"yogur santa clara 2 lt",
+				"yogur santa clara bebible"
+			]
+		},
+		{
+			"nombre" : "yogur Aldia",
+			"busqueda" : [
+				"botella de yogur Aldia",
+				"envase de yogur Aldia",
+				"yogur Aldia",
+				"yogur Aldia 600",
+				"yogur Aldia 1 lt",
+				"yogur Aldia 2 lt",
+				"yogur Aldia bebible"
+			]
+		}
+	]
+}
+{
+	"categoria": "boing",
+	"descripcion": [
+			{
+			"nombre" : "boing de mango",
+			"busqueda" : [
+				"botella de boing de mango",
+				"envase de boing de mango",
+				"boing de mango",
+				"boing de mango 600",
+				"boing de mango 1 lt",
+				"boing de mango 2 lt",
+				"lata de boing de mango"
+			]
+		},
+		{
+			"nombre" : "boing de guayaba",
+			"busqueda" : [
+				"botella de boing de guayaba",
+				"envase de boing de guayaba",
+				"boing de guayaba",
+				"boing de guayaba 600",
+				"boing de guayaba 1 lt",
+				"boing de guayaba 2 lt",
+				"lata de boing de guayaba"
+			]
+		},
+		{
+			"nombre" : "boing de fresa",
+			"busqueda" : [
+				"botella de boing de fresa",
+				"envase de boing de fresa",
+				"boing de fresa",
+				"boing de fresa 600",
+				"boing de fresa 1 lt",
+				"boing de fresa 2 lt",
+				"lata de boing de fresa"
+			]
+		},
+		{
+			"nombre" : "boing de uva",
+			"busqueda" : [
+				"botella de boing de uva",
+				"envase de boing de uva",
+				"boing de uva",
+				"boing de uva 600",
+				"boing de uva 1 lt",
+				"boing de uva 2 lt",
+				"lata de boing de uva"
+			]
+		},
+		{
+			"nombre" : "boing de manzana",
+			"busqueda" : [
+				"botella de boing de manzana",
+				"envase de boing de manzana",
+				"boing de manzana",
+				"boing de manzana 600",
+				"boing de manzana 1 lt",
+				"boing de manzana 2 lt",
+				"lata de boing de manzana"
+			]
+		}
+	]
+}
+{   
+	"categoria": "desodorante",
+	"descripcion": [
+		{
+			"nombre" : "desodorante ",
+			"busqueda" : [
+				"desodorante",
+				"deodorant",
+				"roll on deodorant",
+				"deodorant men",
+				"desodorante antitranspirante",
+				"desodorante spray",
+				"desodorante barra",
+				"desodorante roll on",
+				"desodorante hombre",
+				"desodorante mujer"
+			]
+		},
+		{
+			"nombre" : "desodorante axe",
+			"busqueda" : [
+				"desodorante axe",
+				"desodorante axe hombre",
+				"desodorante axe chocolate",
+				"desodorante axe excite",
+				"desodorante axe blanco",
+				"desodorante axe black",
+				"desodorante axe peace",
+				"desodorante axe barra",
+				"desodorante axe seco",
+				"axe deodorant",
+				"axe deodorant spray",
+				"desodorante axe mujer"
+			]
+		},
+		{
+			"nombre" : "desodorante rexona ",
+			"busqueda" : [
+				"desodorante rexona",
+				"desodorante rexona hombre",
+				"desodorante rexona men",
+				"desodorante rexona roll on",
+				"desodorante rexona en barra",
+				"desodorante rexona mujer",
+				"rexona clinical",
+				"rexona quantum",
+				"rexona v8",
+				"rexona"
+			]
+		},
+		{
+			"nombre" : "desodorante nivea ",
+			"busqueda" : [
+				"desodorante nivea",
+				"nivea desodorante",
+				"desodorante nivea hombre",
+				"desodorante nivea aclarado natural",
+				"desodorante nivea en barra",
+				"desodorante nivea roll on",
+				"desodorante nivea black",
+				"desodorante nivea men",
+				"desodorante nivea mujer"
+			]
+		},
+		{
+			"nombre" : "desodorante old spice",
+			"busqueda" : [
+				"desodorante old spice",
+				"old spice deodorant",
+				"old spice deodorant spray",
+				"old spice deodorant for ladies",
+				"desodorante old spice fresh",
+				"desodorante old spice pure sport",
+				"desodorante old spice barra",
+				"desodorante old spice leña",
+				"desodorante old spice wolfthorn",
+				"desodorante old spice vip",
+				"desodorante old spice hombre",
+				"old spice"
+			]
+		},
+		{
+			"nombre" : "desodorante gillette",
+			"busqueda" : [
+				"desodorante gillette",
+				"gillette deodorant",
+				"gillette deodorant gel",
+				"gillette deodorant sport",
+				"gillette deodorant fresh",
+				"gillette deodorant stick",
+				"gillette deodorant cool wave",
+				"desodorante gillette hombre",
+				"desodorante gillette roll on",
+				"desodorante gillette clinical",
+				"gillette"
+			]
+		},
+		{
+			"nombre" : "desodorante  dove",
+			"busqueda" : [
+				"desodorante dove",
+				"desodorante dove aerosol",
+				"desodorante dove pure",
+				"desodorante dove barra",
+				"desodorante dove clear tone",
+				"desodorante dove men",
+				"desodorante dove mujer",
+				"dove deodorant"
+			]
+		},
+		{
+			"nombre" : "desodorante lady speed stick",
+			"busqueda" : [
+				"desodorante lady speed stick",
+				"desodorante lady speed stick gel",
+				"desodorante lady speed stick rol on",
+				"desodorante lady speed stick mujer",
+				"lady speed stick",
+				"lady speed stick deodorant",
+				"speed stick",
+				"speed stick deodorant",
+				"speed stick men",
+				"speed stick adn",
+				"speed stick roll on",
+				"speed stick cool",
+				"speed stick power",
+				"speed stick barra",
+				"desodorante speed stick"
+			]
+		},
+		{
+			"nombre" : "desodorante  vichy",
+			"busqueda" : [
+				"desodorante vichy",
+				"desodorante vichy hombre",
+				"desodorante vichy mujer",
+				"vichy deodorant"
+			]
+		}
+	]
+}
+{
+	"categoria": "papas",
+	"descripcion": [
+		{
+			"nombre" : "papas sabritas",
+			"busqueda" : [
+				"papas sabritas",
+				"papas sabritas sabores",
+				"papas sabritas adobadas",
+				"papas sabritas png",
+				"papas sabritas presentaciones",
+				"chips brands",
+				"lays chips",
+				"bolsa de sabritas",
+				"sabritas"
+			]
+		},
+		{
+			"nombre" : "papas ruffles",
+			"busqueda" : [
+				"papas ruffles",
+				"papas ruffles grandes",
+				"bolsa de ruffles",
+				"ruffles chips",
+				"ruffles sabritas",
+				"ruffles chips queso",
+				"ruffles flaming hot",
+				"ruffles"
+			]
+		},
+		{
+			"nombre" : "churrumais",
+			"busqueda" : [
+				"papas churrumais",
+				"bolsa de churrumais",
+				"churrumais sabritas",
+				"churrumais png",
+				"churrumais"
+			]
+		},
+		{
+			"nombre" : "fritos",
+			"busqueda" : [
+				"papas fritos",
+				"bolsa de fritos",
+				"fritos de chorizo",
+				"fritos sabritas",
+				"fritos sabritas chile y limon",
+				"fritos chips"
+			]
+		},
+		{
+			"nombre" : "cheetos",
+			"busqueda" : [
+				"papas cheetos",
+				"bolsa de cheetos",
+				"cheetos chips",
+				"cheetos horneados",
+				"mexican cheetos horneados",
+				"cheetos torciditos",
+				"cheetos sabritas",
+				"cheetos horneados bolita",
+				"cheetos horneados colmillos",
+				"cheetos"
+			]
+		},
+		{
+			"nombre" : "doritos",
+			"busqueda" : [
+				"papas doritos",
+				"doritos png",
+				"doritos sabritas",
+				"doritos incognita",
+				"doritos salsa verde",
+				"doritos nachos",
+				"doritos chips",
+				"bolsa de doritos",
+				"doritos"
+			]
+		},
+		{
+			"nombre" : "crujitos",
+			"busqueda" : [
+				"papas crujitos",
+				"crujitos cheaps",
+				"crujitos sabritas",
+				"bolsa de crujitos",
+				"crujitos"
+			]
+		},
+		{
+			"nombre" : "rancheritos",
+			"busqueda" : [
+				"papas rancheritos",
+				"rancheritos chips",
+				"rancheritos sabritas",
+				"bolsa de rancheritos",
+				"rancheritos"
+			]
+		},
+		{
+			"nombre" : "takis",
+			"busqueda" : [
+				"papas takis",
+				"takis fuego",
+				"takis original",
+				"takis chips",
+				"takis barcel",
+				"takis verdes",
+				"bolsa de takis",
+				"takis"
+			]
+		},
+		{
+			"nombre" : "runners",
+			"busqueda" : [
+				"papas runners",
+				"bolsa de runners",
+				"runners"
+			]
+		}
+	]
+}
+{
+	"categoria": "jabon",
+	"descripcion": [
+		{
+			"nombre" : "jabon ",
+			"busqueda" : [
+				"jabon",
+				"jabon de baño",
+				"jabon de tocador",
+				"jabon de coco",
+				"soap",
+				"soap brands",
+				"barra de jabon "
+			]
+		},
+		{
+			"nombre" : "jabon dove",
+			"busqueda" : [
+				"jabon dove",
+				"jabon dove baby",
+				"jabon dove azul",
+				"jabon dove original",
+				"jabon dove men",
+				"barra de jabon dove",
+				"dove soap bar",
+				"dove soap bar pink",
+				"dove soap bar green",
+				"dove soap for face",
+				"dove soap"
+			]
+		},
+		{
+			"nombre" : "jabon Mennen ",
+			"busqueda" : [
+				"jabon Mennen",
+				"jabon Mennen para bebe",
+				"barra de jabon Mennen "
+			]
+		},
+		{
+			"nombre" : "jabon Johnson",
+			"busqueda" : [
+				"jabon Johnson",
+				"jabon Johnson baby",
+				"jabon Johnson avena",
+				"jabon Johnson neutro",
+				"jabon Johnson glicerina",
+				"barra de jabon Johnson",
+				"Johnson's baby soap",
+				"Johnson's baby soap bar",
+				"Johnson's soap"
+			]
+		},
+		{
+			"nombre" : "jabon Nivea",
+			"busqueda" : [
+				"jabon Nivea",
+				"barra de jabon Nivea",
+				"Nivea soap",
+				"Nivea soap for men",
+				"Nivea soap bar"
+			]
+		},
+		{
+			"nombre" : "jabon Palmolive ",
+			"busqueda" : [
+				"jabon Palmolive",
+				"jabon Palmolive neutro",
+				"jabon Palmolive de fresa",
+				"jabon Palmolive almendras",
+				"barra de jabon Palmolive",
+				"Palmolive soap",
+				"Palmolive soap bar",
+				"Palmolive soap pink",
+				"Palmolive soap"
+			]
+		},
+		{
+			"nombre" : "jabon Zest",
+			"busqueda" : [
+				"jabon Zest",
+				"jabon Zest neutro",
+				"jabon Zest natura",
+				"jabon Zest aqua",
+				"jabon Zest png",
+				"barra de jabon Zest",
+				"Zest soap lemon",
+				"Zest soap bar",
+				"Zest soap"
+			]
+		},
+		{
+			"nombre" : "jabon escudo",
+			"busqueda" : [
+				"jabon escudo",
+				"jabon escudo rosa",
+				"jabon escudo antibacterial",
+				"jabon escudo neutro",
+				"jabon escudo png",
+				"barra de jabon escudo",
+				"escudo"
+			]
+		}
+	]
+}
+{
+	"categoria": "pasta dental",
+	"descripcion": [
+		{
+			"nombre" : "pasta de dientes",
+			"busqueda" : [
+				"pasta de dientes",
+				"pasta de dientes sensitive",
+				"toothpaste",
+				"toothpaste png",
+				"pasta dental"
+			]
+		},
+		{
+			"nombre" : "pasta de dientes sensodyne",
+			"busqueda" : [
+				"pasta de dientes sensodyne",
+				"pasta de dientes sensodyne blanqueante",
+				"pasta sensodyne",
+				"pasta dental sensodyne",
+				"sensodyne toothpaste",
+				"sensodyne "
+			]
+		},
+		{
+			"nombre" : "pasta de dientes binaca",
+			"busqueda" : [
+				"pasta de dientes binaca ",
+				"pasta binaca ",
+				"binaca "
+			]
+		},
+		{
+			"nombre" : "pasta de dientes colgate",
+			"busqueda" : [
+				"pasta de dientes colgate",
+				"pasta colgate",
+				"colgate toothpaste",
+				"colgate total 12",
+				"colgate triple accion",
+				"colgate sensitive pro",
+				"colgate sensitive pro alivio",
+				"colgate max white",
+				"colgate luminous white",
+				"colgate luminous white advanced",
+				"colgate"
+			]
+		},
+		{
+			"nombre" : "pasta de dientes Aquafresh",
+			"busqueda" : [
+				"pasta de dientes Aquafresh ",
+				"pasta Aquafresh ",
+				"Aquafresh triple accion",
+				"Aquafresh kids",
+				"Aquafresh toothpaste",
+				"Aquafresh "
+			]
+		},
+		{
+			"nombre" : "pasta de dientes Crest",
+			"busqueda" : [
+				"pasta de dientes Crest ",
+				"pasta Crest",
+				"Crest pasta dental",
+				"Crest toothpaste",
+				"Crest toothpaste 3d white",
+				"Crest toothpaste pro health",
+				"Crest toothpaste with scope",
+				"Crest toothpaste kids"
+			]
+		},
+		{
+			"nombre" : "pasta de dientes Freska-ra",
+			"busqueda" : [
+				"pasta de dientes Freska-ra ",
+				"pasta Freska-ra ",
+				"Freska-ra "
+			]
+		}
+	]
+}
+{
+	"categoria": "leche",
+	"descripcion": [
+		{
+			"nombre" : "leche",
+			"busqueda" : [
+				"leche",
+				"milk carton brands",
+				"leche en caja",
+				"litro de leche"
+			]
+		},
+		{
+			"nombre" : "leche nutrileche",
+			"busqueda" : [
+				"leche nutrileche",
+				"leche en caja nutrileche",
+				"nutrileche",
+				"nutrileche light",
+				"nutrileche png",
+				"litro de nutrileche"
+			]
+		},
+		{
+			"nombre" : "leche alpura",
+			"busqueda" : [
+				"leche alpura",
+				"leche alpura semi",
+				"leche alpura empaque",
+				"leche alpura entera",
+				"leche alpura selecta",
+				"leche alpura de sabores",
+				"leche alpura de chocolate",
+				"leche en caja alpura",
+				"alpura milk",
+				"alpura",
+				"litro de alpura"
+			]
+		},
+		{
+			"nombre" : "leche lala",
+			"busqueda" : [
+				"leche lala",
+				"lala milk",
+				"leche lala 100",
+				"leche lala entera",
+				"leche lala deslactosada",
+				"leche lala light",
+				"leche lala galon",
+				"leche en caja lala",
+				"litro de leche lala"
+			]
+		},
+		{
+			"nombre" : "leche tierra de sabor",
+			"busqueda" : [
+				"leche tierra de sabor",
+				"tierra de sabor",
+				"litro de tierra de sabor"
+			]
+		},
+		{
+			"nombre" : "leche la vaquera",
+			"busqueda" : [
+				"leche la vaquera",
+				"la vaquera",
+				"litro de la vaquera"
+			]
+		},
+		{
+			"nombre" : "leche la vaquita",
+			"busqueda" : [
+				"leche la vaquita",
+				"la vaquita",
+				"litro de la vaquita"
+			]
+		},
+		{
+			"nombre" : "leche kaiku",
+			"busqueda" : [
+				"leche kaiku",
+				"kaiku",
+				"litro de kaiku"
+			]
+		},
+		{
+			"nombre" : "leche larsa",
+			"busqueda" : [
+				"leche larsa",
+				"larsa",
+				"litro de larsa"
+			]
+		},
+		{
+			"nombre" : "leche Feiraco",
+			"busqueda" : [
+				"leche Feiraco",
+				"Feiraco",
+				"litro de Feiraco"
+			]
+		}
+	]
+}
+{
+	"categoria": "chocolate",
+	"descripcion": [
+		{
+			"nombre" : "chocolate en polvo",
+			"busqueda" : [
+				"chocolate en polvo marcas",
+				"chocolate powder brands",
+				"bote de chocolate"
+			]
+		},
+		{
+			"nombre" : "chocolate en polvo calcetose",
+			"busqueda" : [
+				"chocolate en polvo calcetose",
+				"calcetose",
+				"chocolate calcetose",
+				"bote de chocolate calcetose"
+			]
+		},
+		{
+			"nombre" : "chocolate en polvo Choco Milk",
+			"busqueda" : [
+				"chocolate en polvo Choco Milk",
+				"Choco Milk",
+				"chocolate  Choco Milk",
+				"bote de chocolate Choco Milk"
+			]
+		},
+		{
+			"nombre" : "chocolate en polvo morelia",
+			"busqueda" : [
+				"chocolate en polvo morelia",
+				"morelia",
+				"chocolate  morelia",
+				"chocolate  morelia presidencial",
+				"bote de chocolate morelia"
+			]
+		},
+		{
+			"nombre" : "chocolate en polvo Nesquik",
+			"busqueda" : [
+				"chocolate en polvo Nesquik",
+				"Nesquik",
+				"chocolate  Nesquik",
+				"bote de chocolate Nesquik"
+			]
+		},
+		{
+			"nombre" : "chocolate en polvo Aramel",
+			"busqueda" : [
+				"chocolate en polvo Aramel",
+				"Aramel",
+				"chocolate  Aramel",
+				"bote de chocolate Aramel"
+			]
+		},
+		{
+			"nombre" : "chocolate en polvo Carlos V",
+			"busqueda" : [
+				"chocolate en polvo Carlos V",
+				"Carlos V",
+				"chocolate  Carlos V",
+				"bote de chocolate Carlos V"
+			]
+		},
+		{
+			"nombre" : "chocolate en polvo Choco Bee ",
+			"busqueda" : [
+				"chocolate en polvo Choco Bee",
+				"Choco Bee",
+				"chocolate Choco Bee",
+				"bote de chocolate Choco Bee"
+			]
+		},
+		{
+			"nombre" : "chocolate en polvo Jati",
+			"busqueda" : [
+				"chocolate en polvo Jati",
+				"Jati",
+				"chocolate Jati",
+				"bote de chocolate Jati"
+			]
+		},
+		{
+			"nombre" : "chocolate en polvo twingo!",
+			"busqueda" : [
+				"chocolate en polvo twingo!",
+				"twingo!",
+				"chocolate  twingo!",
+				"bote de chocolate twingo!"
+			]
+		},
+		{
+			"nombre" : "chocolate en polvo Hershey",
+			"busqueda" : [
+				"chocolate en polvo Hershey",
+				"Hershey",
+				"chocolate  Hershey",
+				"bote de chocolate Hershey"
+			]
+		}
+	]
+}
+{	
+	"categoria" : "cereal",
+	"descripcion": [
+		{
+			"nombre" : "Cereal",
+			"busqueda" : [
+				"Cereal box",
+				"Cereal brands",
+				"Cereal marcas",
+				"Cereal integral marcas",
+				"caja de cereal"
+			]
+		},
+		{
+			"nombre" : "Cereal Special K",
+			"busqueda" : [
+				"Cereal Special K",
+				"Cereal Special K almendras",
+				"Cereal Special K original",
+				"Special K",
+				"caja de Special K",
+				"kellogg's cereal special k"
+			]
+		},
+		{
+			"nombre" : "Cereal fitness",
+			"busqueda" : [
+				"Cereal fitness",
+				"Cereal fitness de nestle",
+				"Cereal fitness fruits",
+				"Cereal fitness miel y almendras",
+				"Cereal fitness original",
+				"Cereal fitness fibra",
+				"caja de fitness"
+			]
+		},
+		{
+			"nombre" : "Cereal zucaritas",
+			"busqueda" : [
+				"Cereal zucaritas",
+				"caja de Cereal zucaritas",
+				"Cereal zucaritas png",
+				"zucaritas caja grande",
+				"zucaritas",
+				"caja de zucaritas"
+			]
+		},
+		{
+			"nombre" : "Cereal Choco Krispis",
+			"busqueda" : [
+				"Cereal Choco Krispis",
+				"Choco Krispis",
+				"caja de Choco Krispis"
+			]
+		},
+		{
+			"nombre" : "Cereal Kellogg's",
+			"busqueda" : [
+				"Cereal Kellogg's",
+				"Cereal Kellogg's brands",
+				"Kellogg's",
+				"caja de Kellogg's"
+			]
+		},
+		{
+			"nombre" : "Cereal all bran",
+			"busqueda" : [
+				"Cereal all bran",
+				"Cereal all bran flakes",
+				"Cereal integral all bran",
+				"Cereal all bran pasas",
+				"Cereal all bran original",
+				"all bran",
+				"caja de   all bran"
+			]
+		},
+		{
+			"nombre" : "Cereal corn flakes",
+			"busqueda" : [
+				"Cereal corn flakes",
+				"Cereal corn flakes nestle",
+				"Cereal corn flakes kellogs",
+				"corn flakes",
+				"caja de corn flakes",
+				"caja de cereal corn flakes"
+			]
+		},
+		{
+			"nombre" : "Cereal Quaker",
+			"busqueda" : [
+				"Cereal Quaker",
+				"Cereal Quaker squares",
+				"Cereal Quaker cuadritos",
+				"Cereal Quaker hearts",
+				"Cereal Quaker oats",
+				"caja de Quaker"
+			]
+		},
+		{
+			"nombre" : "Cereal Cherrios",
+			"busqueda" : [
+				"Cereal Cherrios",
+				"Cereal Cherrios miel",
+				"Cereal Cherrios manzana canela",
+				"Cereal Cherrios avena",
+				"Cereal Cherrios box",
+				"Cherrios",
+				"caja de Cherrios"
+			]
+		},
+		{
+			"nombre" : "Cereal fruity loops",
+			"busqueda" : [
+				"Cereal fruity loops",
+				"fruity loops",
+				"caja de fruity loops"
+			]
+		},
+		{
+			"nombre" : "Cereal corn pops",
+			"busqueda" : [
+				"Cereal corn pops",
+				"Cereal corn pops nutrition facts",
+				"Cereal corn pops box",
+				"corn pops",
+				"caja de corn pops"
+			]
+		},
+		{
+			"nombre" : "Cereal trix",
+			"busqueda" : [
+				"Cereal trix",
+				"trix",
+				"caja de trix"
+			]
+		}
+	]
+}
+{	
+	"categoria": "aceite cocina",
+	"descripcion": [
+		{
+			"nombre" : "aceite de cocina",
+			"busqueda" : [
+				"aceite de cocina",
+				"aceite de cocina png",
+				"kitchen oil",
+				"kitchen oil brands",
+				"litro de aceite de cocina",
+				"botella de aceite de cocina "
+			]
+		},
+		{
+			"nombre" : "aceite capullo",
+			"busqueda" : [
+				"aceite capullo",
+				"aceite capullo png",
+				"litro de capullo",
+				"botella de capullo"
+			]
+		},
+		{
+			"nombre" : "aceite 123",
+			"busqueda" : [
+				"aceite 123",
+				"litro de 123",
+				"botella de 123"
+			]
+		},
+		{
+			"nombre" : "aceite cristal",
+			"busqueda" : [
+				"aceite cristal",
+				"litro de cristal",
+				"botella de cristal"
+			]
+		},
+		{
+			"nombre" : "aceite nutriolli",
+			"busqueda" : [
+				"aceite nutriolli",
+				"litro de nutriolli",
+				"botella de nutriolli"
+			]
+		},
+		{
+			"nombre" : "aceite ave",
+			"busqueda" : [
+				"ave",
+				"aceite ave",
+				"litro de ave",
+				"botella de ave"
+			]
+		},
+		{
+			"nombre" : "aceite bertolli",
+			"busqueda" : [
+				"bertolli",
+				"aceite bertolli",
+				"litro de bertolli",
+				"botella de bertolli"
+			]
+		},
+		{
+			"nombre" : "aceite borges",
+			"busqueda" : [
+				"borges",
+				"aceite borges",
+				"litro de borges",
+				"botella de borges"
+			]
+		},
+		{
+			"nombre" : "aceite ines",
+			"busqueda" : [
+				"ines",
+				"aceite ines",
+				"litro de ines",
+				"botella de ines"
+			]
+		}
+	]
+}
+{
+	"categoria": "aceite automovil",
+	"descripcion": [
+		{
+			"nombre" : "aceite para coche",
+			"busqueda" : [
+				"aceite para coche",
+				"aceite automovil",
+				"aceite carro",
+				"automobile oil",
+				"car oil",
+				"motor oil",
+				"engine oil"
+			]
+		},
+		{
+			"nombre" : "aceite para coche castrol",
+			"busqueda" : [
+				"castrol",
+				"castrol magnatec",
+				"castrol edge",
+				"castrol 20w50",
+				"castrol gtx",
+				"castrol oil",
+				"castrol oil png",
+				"aceite castrol",
+				"aceite para coche castrol",
+				"litro de castrol",
+				"botella de castrol"
+			]
+		},
+		{
+			"nombre" : "aceite para coche Pennzoil",
+			"busqueda" : [
+				"Pennzoil",
+				"Pennzoil productos",
+				"Pennzoil 10w30",
+				"Pennzoil 20w50",
+				"Pennzoil platinum",
+				"Pennzoil oil",
+				"aceite Pennzoil",
+				"aceite para coche Pennzoil",
+				"litro de Pennzoil",
+				"botella de Pennzoil"
+			]
+		},
+		{
+			"nombre" : "aceite para coche Mobil 1",
+			"busqueda" : [
+				"Mobil 1",
+				"Mobil 1 extended performance",
+				"Mobil 1 racing",
+				"Mobil 1 oil",
+				"Mobil 1 png",
+				"Mobil 1 5w30",
+				"Mobil 1 5w50",
+				"Mobil 1 5w40",
+				"aceite Mobil 1",
+				"aceite para coche Mobil 1",
+				"litro de Mobil 1",
+				"botella de Mobil 1"
+			]
+		},
+		{
+			"nombre" : "aceite para coche AMSOIL",
+			"busqueda" : [
+				"AMSOIL",
+				"AMSOIL oil",
+				"AMSOIL 20w50",
+				"aceite AMSOIL",
+				"aceite para coche AMSOIL",
+				"litro de AMSOIL",
+				"botella de AMSOIL"
+			]
+		},
+		{
+			"nombre" : "aceite para coche quaker state",
+			"busqueda" : [
+				"quaker state",
+				"quaker state png",
+				"quaker state difay",
+				"quaker state defy",
+				"quaker state oil",
+				"quaker state 20w50",
+				"quaker state 5w30",
+				"aceite quaker state",
+				"aceite para coche quaker state",
+				"litro de quaker state",
+				"botella de quaker state"
+			]
+		}
+	]
+}
+{
+	"categoria": "mermelada",
+	"descripcion": [
+		{
+			"nombre" : "Mermelada de fresa",
+			"busqueda" : [
+				"Mermelada de fresa",
+				"Mermelada de fresa en frasco",
+				"Mermelada de fresa marcas",
+				"Mermelada frasco",
+				"Mermelada envase",
+				"strawberry jam",
+				"jam brands",
+				"frasco de mermelada"
+			]
+		},
+		{
+			"nombre" : "Mermelada de fresa del monte",
+			"busqueda" : [
+				"Mermelada de fresa del monte",
+				"Mermelada del monte",
+				"frasco de mermelada del monte"
+			]
+		},
+		{
+			"nombre" : "Mermelada de fresa mccormick",
+			"busqueda" : [
+				"Mermelada de fresa mccormick",
+				"Mermelada mccormick",
+				"mccormick strawberry jam",
+				"frasco de mermelada mccormick"
+			]
+		},
+		{
+			"nombre" : "Mermelada de fresa la costeña",
+			"busqueda" : [
+				"Mermelada de fresa la costeña",
+				"Mermelada la costeña",
+				"frasco de mermelada la costeña"
+			]
+		},
+		{
+			"nombre" : "Mermelada de fresa sofra",
+			"busqueda" : [
+				"Mermelada de fresa sofra",
+				"Mermelada sofra",
+				"frasco de mermelada sofra"
+			]
+		},
+		{
+			"nombre" : "Mermelada de fresa smuckers",
+			"busqueda" : [
+				"Mermelada de fresa smuckers",
+				"Mermelada smuckers",
+				"smuckers strawberry jam",
+				"frasco de mermelada smuckers"
+			]
+		},
+		{
+			"nombre" : "Mermelada de fresa carlota",
+			"busqueda" : [
+				"Mermelada de fresa carlota",
+				"Mermelada carlota",
+				"frasco de mermelada carlota"
+			]
+		}
+	]
+}
+{
+	"categoria": "mayonesa",
+	"descripcion": [
+		{
+			"nombre" : "Mayonesa",
+			"busqueda" : [
+				"Mayonesa envase",
+				"Mayonesa en frasco",
+				"mayonnaise packaging",
+				"mayonnaise packaging design",
+				"frasco de mayonesa"
+			]
+		},
+		{
+			"nombre" : "Mayonesa kraft",
+			"busqueda" : [
+				"Mayonesa kraft",
+				"kraft mayonnaise",
+				"kraft mayonnaise nutrition label",
+				"kraft mayonnaise 30 oz",
+				"Mayonesa kraft tamaños",
+				"Mayonesa kraft light",
+				"Mayonesa kraft tapa roja",
+				"frasco de kraft"
+			]
+		},
+		{
+			"nombre" : "Mayonesa mccormick",
+			"busqueda" : [
+				"Mayonesa mccormick",
+				"mccormick mayonnaise",
+				"mccormick mayonnaise whith lime",
+				"Mayonesa mccormick presentaciones",
+				"frasco de mccormick"
+			]
+		},
+		{
+			"nombre" : "Mayonesa heinz",
+			"busqueda" : [
+				"Mayonesa heinz",
+				"heinz mayonnaise",
+				"heinz mayonnaise jar",
+				"heinz mayonnaise tesco",
+				"Mayonesa heinz light",
+				"frasco de heinz"
+			]
+		},
+		{
+			"nombre" : "Mayonesa hellmanns",
+			"busqueda" : [
+				"Mayonesa hellmanns",
+				"hellman's mayonnaise",
+				"hellman's mayonnaise jar",
+				"Mayonesa hellmanns clasica",
+				"Mayonesa hellmanns presentaciones",
+				"Mayonesa hellmanns png",
+				"frasco de hellmanns"
+			]
+		}
+	]
+}
+{
+	"categoria": "catsup",
+	"descripcion": [
+		{
+			"nombre" : "Catsup",
+			"busqueda" : [
+				"Catsup",
+				"salsa Catsup",
+				"ketchup",
+				"ketchup png",
+				"tomato ketchup",
+				"ketchup sachets",
+				"frasco de Catsup",
+				"botella de Catsup"
+			]
+		},
+		{
+			"nombre" : "Catsup clemente jacques",
+			"busqueda" : [
+				"Catsup clemente jacques",
+				"salsa Catsup clemente jacques",
+				"Catsup clemente jacques presentaciones",
+				"frasco de Catsup clemente jacques",
+				"botella de Catsup clemente jacques"
+			]
+		},
+		{
+			"nombre" : "Catsup heinz",
+			"busqueda" : [
+				"Catsup heinz",
+				"heinz ketchup",
+				"heinz ketchup ingredients",
+				"heinz ketchup bottle",
+				"heinz ketchup png",
+				"frasco de Catsup heinz",
+				"botella de Catsup heinz"
+			]
+		},
+		{
+			"nombre" : "Catsup hunts",
+			"busqueda" : [
+				"Catsup hunts",
+				"salsa Catsup hunts",
+				"hunt's ketchup",
+				"hunt's tomato ketchup",
+				"hunt's ketchup 24 oz",
+				"frasco de Catsup hunts",
+				"botella de Catsup hunts"
+			]
+		},
+		{
+			"nombre" : "Catsup del monte",
+			"busqueda" : [
+				"Catsup del monte",
+				"salsa Catsup del monte",
+				"ketchup del monte",
+				"Catsup del monte presentaciones",
+				"frasco de Catsup del monte",
+				"botella de Catsup del monte"
+			]
+		},
+		{
+			"nombre" : "Catsup la costeña",
+			"busqueda" : [
+				"Catsup la costeña",
+				"salsa Catsup la costeña",
+				"Catsup la costeña presentaciones",
+				"botella de Catsup la costeña"
+			]
+		}
+	]
+}
+{
+	"categoria": "mostaza",
+	"descripcion": [
+		{
+			"nombre" : "mostaza",
+			"busqueda" : [
+				"mostaza",
+				"mostaza marcas",
+				"mustard",
+				"mustard bottle",
+				"mustard packets",
+				"frasco de mostaza",
+				"botella de mostaza"
+			]
+		},
+		{
+			"nombre" : "mostaza maille",
+			"busqueda" : [
+				"mostaza dijon",
+				"mostaza dijon maille",
+				"maille dijon",
+				"maille dijon mustard",
+				"maille dijon originale",
+				"moutarde de dijon maille",
+				"frasco de mostaza dijon",
+				"botella de mostaza dijon"
+			]
+		},
+		{
+			"nombre" : "mostaza mccormick",
+			"busqueda" : [
+				"mostaza mccormick",
+				"mostaza dijon mccormick",
+				"frasco de mostaza mccormick",
+				"botella de mostaza mccormick"
+			]
+		},
+		{
+			"nombre" : "mostaza heinz",
+			"busqueda" : [
+				"mostaza heinz",
+				"heinz mustard",
+				"heinz mustard pickle",
+				"heinz mustard nutrition",
+				"heinz mustard bottle",
+				"frasco de mostaza heinz",
+				"botella de mostaza heinz"
+			]
+		},
+		{
+			"nombre" : "mostaza fruco",
+			"busqueda" : [
+				"mostaza fruco",
+				"frasco de mostaza fruco",
+				"botella de mostaza fruco"
+			]
+		}
+	]
+}
+{
+	"categoria": "shampoo",
+	"descripcion": [
+		{
+			"nombre" : "shampoo",
+			"busqueda" : [
+				"shampoo",
+				"shampoo sin sal",
+				"shampoo marcas",
+				"shampoo brands",
+				"sachet shampoo",
+				"sobrecito de shampo",
+				"botella de shampoo"
+			]
+		},
+		{
+			"nombre" : "shampoo sedal",
+			"busqueda" : [
+				"shampoo sedal",
+				"shampoo sedal riso perfecto",
+				"shampoo sedal rosa",
+				"shampoo sedal verde",
+				"shampoo sedal naranja",
+				"shampoo sedal con biotina",
+				"botella de shampoo sedal",
+				"sedal",
+				"sedal shampoo pink",
+				"sedal shampoo green",
+				"sedal shampoo orange"
+			]
+		},
+		{
+			"nombre" : "shampoo pert",
+			"busqueda" : [
+				"shampoo pert",
+				"shampoo pert morado",
+				"shampoo pert plus",
+				"shampoo pert control caida",
+				"botella de shampoo pert"
+			]
+		},
+		{
+			"nombre" : "shampoo caprice",
+			"busqueda" : [
+				"shampoo caprice",
+				"shampoo caprice biotina",
+				"shampoo caprice morado",
+				"shampoo caprice anticaspa",
+				"shampoo caprice control caida",
+				"botella de shampoo caprice"
+			]
+		},
+		{
+			"nombre" : "shampoo herbal essences",
+			"busqueda" : [
+				"shampoo herbal essences",
+				"shampoo herbal essences rojo",
+				"shampoo herbal essences de coco",
+				"shampoo herbal essences hidradisiaco",
+				"shampoo herbal essences violeta",
+				"botella de shampoo herbal essences",
+				"herbal essences"
+			]
+		},
+		{
+			"nombre" : "shampoo clear",
+			"busqueda" : [
+				"shampoo clear",
+				"shampoo clear men",
+				"shampoo clear control caida",
+				"shampoo clear anticaspa",
+				"botella de shampoo clear"
+			]
+		},
+		{
+			"nombre" : "shampoo head & shoulders",
+			"busqueda" : [
+				"shampoo head & shoulders",
+				"shampoo head shoulders 400 ml",
+				"shampoo head shoulders anticaspa",
+				"shampoo head shoulders men",
+				"shampoo head shoulders 700 ml",
+				"shampoo head shoulders sachet",
+				"botella de shampoo head & shoulders",
+				"head shoulders"
+			]
+		},
+		{
+			"nombre" : "shampoo pantene",
+			"busqueda" : [
+				"shampoo pantene",
+				"shampoo pantene expert",
+				"shampoo pantene 400 ml",
+				"shampoo pantene pro v",
+				"shampoo pantene sachet",
+				"shampoo pantene restauracion",
+				"shampoo pantene hidratacion",
+				"botella de shampoo pantene",
+				"pantene"
+			]
+		},
+		{
+			"nombre" : "shampoo tresemme",
+			"busqueda" : [
+				"shampoo tresemme",
+				"shampoo tresemme keratina",
+				"shampoo tresemme rojo",
+				"shampoo tresemme risos perfectos",
+				"shampoo tresemme black",
+				"shampoo tresemme red",
+				"botella de shampoo tresemme",
+				"tresemme"
+			]
+		},
+		{
+			"nombre" : "shampoo vanart",
+			"busqueda" : [
+				"shampoo vanart",
+				"shampoo vanart caspa",
+				"shampoo vanart crematizado",
+				"shampoo vanart verde",
+				"botella de shampoo vanart",
+				"vanart"
+			]
+		},
+		{
+			"nombre" : "shampoo loreal",
+			"busqueda" : [
+				"shampoo loreal",
+				"shampoo loreal elvive",
+				"shampoo loreal silver",
+				"shampoo loreal paris",
+				"shampoo loreal expert",
+				"shampoo loreal kids",
+				"botella de shampoo loreal"
+			]
+		}
+	]
+}
+{
+	"categoria": "talco",
+	"descripcion": [
+		{
+			"nombre" : "talco ",
+			"busqueda" : [
+				"talco",
+				"talcum",
+				"talcum powder",
+				"envase de talco",
+				"talco para pies",
+				"talco para bebe"
+			]
+		},
+		{
+			"nombre" : "talco rexona",
+			"busqueda" : [
+				"talco rexona",
+				"talco rexona efficient",
+				"envase de talco rexona",
+				"talco para pies rexona"
+			]
+		},
+		{
+			"nombre" : "talco mexsana",
+			"busqueda" : [
+				"talco mexsana",
+				"talco mexsana con triclosan",
+				"envase de talco mexsana",
+				"talco para pies mexsana"
+			]
+		},
+		{
+			"nombre" : "talco ammens",
+			"busqueda" : [
+				"talco ammens",
+				"envase de talco ammens",
+				"talco para pies ammens"
+			]
+		},
+		{
+			"nombre" : "talco derman",
+			"busqueda" : [
+				"talco derman",
+				"envase de talco derman",
+				"talco para pies derman"
+			]
+		},
+		{
+			"nombre" : "talco dolex",
+			"busqueda" : [
+				"talco dolex",
+				"envase de talco dolex",
+				"talco para pies dolex"
+			]
+		},
+		{
+			"nombre" : "talco olorex",
+			"busqueda" : [
+				"talco olorex",
+				"envase de talco olorex",
+				"talco para pies olorex"
+			]
+		},
+		{
+			"nombre" : "talco ting",
+			"busqueda" : [
+				"talco ting",
+				"envase de talco ting",
+				"talco para pies ting"
+			]
+		},
+		{
+			"nombre" : "talco Mennen",
+			"busqueda" : [
+				"talco Mennen",
+				"envase de talco Mennen",
+				"talco para bebes Mennen"
+			]
+		}
+	]
+}
+{
+	"categoria": "crema corporal",
+	"descripcion": [
+		{
+			"nombre" : "crema corporal ",
+			"busqueda" : [
+				"crema corporal",
+				"crema hidratante",
+				"crema humectante",
+				"envase crema corporal ",
+				"body lotion",
+				"body lotion for dry skin",
+				"moisturizer cream"
+			]
+		},
+		{
+			"nombre" : "crema corporal hinds",
+			"busqueda" : [
+				"crema corporal hinds",
+				"envase crema corporal hinds",
+				"crema hinds",
+				"crema hinds aclaradora",
+				"crema hinds rosa",
+				"crema hinds mama",
+				"crema hinds anti age",
+				"crema hinds para piel seca",
+				"crema hinds hidratacion extrema"
+			]
+		},
+		{
+			"nombre" : "crema corporal st ives",
+			"busqueda" : [
+				"crema corporal st ives",
+				"envase crema corporal st ives",
+				"crema st ives",
+				"st ives exfoliante",
+				"st ives body lotion",
+				"st ives body cream",
+				"st ives exfoliante blemish control",
+				"st ives exfoliante corporal",
+				"crema st ives avena y karite",
+				"crema st ives mineral therapy",
+				"crema st ives colageno"
+			]
+		},
+		{
+			"nombre" : "crema corporal vasenol",
+			"busqueda" : [
+				"crema corporal vasenol",
+				"envase crema corporal vasenol",
+				"crema vasenol",
+				"crema vasenol corporal",
+				"crema vasenol aloe fresh",
+				"vasenol",
+				"vaselin body cream",
+				"vaselin body cream",
+				"vaselin body lotion",
+				"vaselin body lotion aloe vera",
+				"crema vasenol de manos",
+				"crema vasenol cocoa glow"
+			]
+		},
+		{
+			"nombre" : "crema corporal dove",
+			"busqueda" : [
+				"crema corporal dove",
+				"envase crema corporal dove",
+				"crema dove",
+				"crema dove reafirmante",
+				"crema dove para piel extra seca",
+				"crema dove autobronceadora",
+				"crema dove pepino",
+				"dove cream",
+				"dove body lotion"
+			]
+		},
+		{
+			"nombre" : "crema corporal nivea",
+			"busqueda" : [
+				"crema corporal nivea",
+				"envase crema corporal nivea",
+				"nivea",
+				"nivea body milk",
+				"nivea body lotion",
+				"nivea body cream",
+				"crema nivea",
+				"crema nivea hidratante",
+				"crema nivea soft",
+				"crema nivea reafirmante",
+				"crema nivea aclarante",
+				"crema nivea men",
+				"crema nivea"
+			]
+		},
+		{
+			"nombre" : "crema corporal lubriderm",
+			"busqueda" : [
+				"crema corporal lubriderm",
+				"envase crema corporal lubriderm",
+				"crema lubriderm",
+				"crema lubriderm extra humectante",
+				"crema lubriderm piel seca",
+				"crema lubriderm avena",
+				"crema lubriderm para hombre",
+				"crema lubriderm renovacion celular",
+				"lubriderm",
+				"lubriderm dorada",
+				"lubriderm body cream",
+				"lubriderm body lotion"
+			]
+		}
+	]
+}
+{
+	"categoria": "gel",
+	"descripcion": [
+		{
+			"nombre" : "gel para el cabello",
+			"busqueda" : [
+				"gel para el cabello",
+				"envase de gel",
+				"hair gel",
+				"hair gel for men",
+				"styling gel"
+			]
+		},
+		{
+			"nombre" : "gel xtreme",
+			"busqueda" : [
+				"gel xtreme",
+				"gel xtreme ice",
+				"gel xtreme attraction",
+				"gel xtreme 250 gr",
+				"gel xtreme presentaciones",
+				"envase gel xtreme",
+				"gel para cabello xtreme"
+			]
+		},
+		{
+			"nombre" : "gel garnier",
+			"busqueda" : [
+				"gel garnier",
+				"garnier fructis hari gel",
+				"gel garnier fructis",
+				"gel garnier presentaciones",
+				"envase gel garnier",
+				"gel para cabello garnier"
+			]
+		},
+		{
+			"nombre" : "gel moco de gorila",
+			"busqueda" : [
+				"gel moco de gorila",
+				"gel moco de gorila sport",
+				"gel moco de gorila presentaciones",
+				"envase gel moco de gorila",
+				"gel para cabello moco de gorila"
+			]
+		},
+		{
+			"nombre" : "gel ego",
+			"busqueda" : [
+				"gel ego",
+				"gel ego black",
+				"gel ego power",
+				"gel ego diez",
+				"gel ego presentaciones",
+				"envase gel ego",
+				"gel para cabello ego"
+			]
+		},
+		{
+			"nombre" : "gel v05",
+			"busqueda" : [
+				"gel v05",
+				"gel v05 wax",
+				"gel v05 presentaciones",
+				"envase gel v05",
+				"gel para cabello v05"
+			]
+		}
+	]
+}
+{
+	"categoria": "pañales",
+	"descripcion": [
+		{
+			"nombre" : "pañales ",
+			"busqueda" : [
+				"pañales",
+				"diapers",
+				"diapers brands",
+				"pañales desechables",
+				"marcas pañales desechables",
+				"marcas pañales desechables para bebe",
+				"paquetes de pañales huggies"
+			]
+		},
+		{
+			"nombre" : "pañales huggies",
+			"busqueda" : [
+				"huggies diapers",
+				"huggies diapers sizes",
+				"pañales huggies",
+				"pañales huggies natural care",
+				"pañales huggies active sec",
+				"pañales huggies up & go",
+				"pañales huggies etapas",
+				"paquetes de pañales huggies"
+			]
+		},
+		{
+			"nombre" : "pañales moltex",
+			"busqueda" : [
+				"moltex diapers",
+				"moltex diapers premium",
+				"moltex diapers bio baby",
+				"moltex diapers sizes",
+				"pañales moltex",
+				"pañales moltex etapas",
+				"paquetes de pañales moltex"
+			]
+		},
+		{
+			"nombre" : "pañales dodot",
+			"busqueda" : [
+				"dodot diapers",
+				"dodot diapers sizes",
+				"pañales dodot",
+				"pañales dodot carrefour",
+				"pañales dodot activity",
+				"pañales dodot etapas",
+				"paquetes de pañales dodot"
+			]
+		},
+		{
+			"nombre" : "pañales pampers",
+			"busqueda" : [
+				"pampers diapers",
+				"pampers diapers sizes",
+				"pañales pampers",
+				"pañales pampers premium care",
+				"pañales pampers g",
+				"pañales pampers xm",
+				"pañales pampers m",
+				"pañales pampers etapas",
+				"paquetes de pañales pampers"
+			]
+		},
+		{
+			"nombre" : "pañales absorcsec",
+			"busqueda" : [
+				"absorcsec diapers",
+				"absorcsec diapers sizes",
+				"pañales absorcsec",
+				"pañales absorcsec grande",
+				"pañales absorcsec chico",
+				"pañales absorcsec ultra",
+				"pañales absorcsec jumbo",
+				"pañales absorcsec etapas",
+				"paquetes de pañales absorcsec"
+			]
+		}
+	]
+}
+{
+	"categoria" : "crema",
+	"descripcion" : [
+		{
+			"nombre" : "crema de vaca",
+			"busqueda" : [
+				"crema de vaca",
+				"crema descremada",
+				"crema deslactosada"
+			]
+		},
+		{
+			"nombre" : "crema yoplait",
+			"busqueda" : [
+				"crema yoplait",
+				"crema yoplait 450ml",
+				"crema yoplait acida",
+				"crema yoplait acidificada",
+				"crema yoplait de 4 litros",
+				"crema yoplait deslactosada",
+				"crema yoplait light",
+				"crema yoplait presentaciones",
+				"envase de crema yoplait",
+				"litro de crema yoplait"
+			]
+		},
+		{
+			"nombre" : "crema alpura",
+			"busqueda" : [
+				"crema alpura",
+				"crema alpura 450ml",
+				"crema alpura acida",
+				"crema alpura acidificada",
+				"crema alpura de 4 litros",
+				"crema alpura deslactosada",
+				"crema alpura light",
+				"crema alpura presentaciones",
+				"envase de crema alpura",
+				"litro de crema alpura"
+			]
+		},
+		{
+			"nombre" : "crema lala",
+			"busqueda" : [
+				"crema lala",
+				"crema lala 450ml",
+				"crema lala acida",
+				"crema lala acidificada",
+				"crema lala de 4 litros",
+				"crema lala deslactosada",
+				"crema lala light",
+				"crema lala presentaciones",
+				"envase de crema lala",
+				"litro de crema lala"
+			]
+		},
+		{
+			"nombre" : "crema nestle",
+			"busqueda" : [
+				"crema nestle",
+				"envase de crema nestle",
+				"litro de crema nestle"
+			]
+		}
+	]
+}
+{
+	"categoria" : "galletas",
+	"descripcion" : [
+		{
+			"nombre" : "galletas emperador",
+			"busqueda" : [
+				"galletas en paquete",
+				"galletas emperador",
+				"paquete de galletas emperador",
+				"bolsa de galletas emperador"
+			]
+		},
+		{
+			"nombre" : "galletas chokis",
+			"busqueda" : [
+				"galletas chokis",
+				"paquete de galletas chokis",
+				"bolsa de galletas chokis"
+			]
+		},
+		{
+			"nombre" : "galletas florentinas",
+			"busqueda" : [
+				"galletas florentinas",
+				"paquete de galletas florentinas",
+				"bolsa de galletas florentinas"
+			]
+		},
+		{
+			"nombre" : "galletas marias",
+			"busqueda" : [
+				"galletas marias",
+				"paquete de galletas marias",
+				"bolsa de galletas marias"
+			]
+		},
+		{
+			"nombre" : "galletas oreo",
+			"busqueda" : [
+				"galletas oreo",
+				"paquete de galletas oreo",
+				"bolsa de galletas oreo"
+			]
+		},
+		{
+			"nombre" : "galletas saladitas",
+			"busqueda" : [
+				"galletas saladitas",
+				"paquete de galletas saladitas",
+				"bolsa de galletas saladitas"
+			]
+		},
+		{
+			"nombre" : "galletas quaker",
+			"busqueda" : [
+				"galletas quaker",
+				"paquete de galletas quaker",
+				"bolsa de galletas quaker"
+			]
+		},
+		{
+			"nombre" : "galletas ritz",
+			"busqueda" : [
+				"galletas ritz",
+				"paquete de galletas ritz",
+				"bolsa de galletas ritz"
+			]
+		}
+	]
+}
+{
+	"categoria" : "atun",
+	"descripcion" : [
+		{
+			"nombre" : "atun",
+			"busqueda" : [
+				"atun en lata",
+				"atun enlatado",
+				"tuna can",
+				"tuna can in water",
+				"lata de atun",
+				"marcas de atun",
+				"atun en agua"
+			]	
+		},	
+		{
+			"nombre" : "atun dolores",
+			"busqueda" : [
+				"atun dolores",
+				"atun dolores en agua",
+				"atun dolores en en aceite",
+				"lata de atun dolores"
+			]
+		},
+		{
+			"nombre" : "atun nair",
+			"busqueda" : [
+				"atun nair",
+				"atun nair en agua",
+				"atun nair en en aceite",
+				"lata de atun nair"
+			]
+		},
+		{
+			"nombre" : "atun el dorado",
+			"busqueda" : [
+				"atun el dorado",
+				"atun el dorado en agua",
+				"atun el dorado en en aceite",
+				"lata de atun el dorado"
+			]
+		},
+		{
+			"nombre" : "atun mazatun",
+			"busqueda" : [
+				"atun mazatun",
+				"atun mazatun en agua",
+				"atun mazatun en en aceite",
+				"lata de atun mazatun"
+			]
+		},
+		{
+			"nombre" : "atun herdez",
+			"busqueda" : [
+				"atun herdez",
+				"atun herdez en agua",
+				"atun herdez en en aceite",
+				"lata de atun herdez"
+			]
+		},
+		{
+			"nombre" : "atun tuny",
+			"busqueda" : [
+				"atun tuny",
+				"ensalada de atun tuny",
+				"atun tuny light",
+				"lata de atun tuny"
+			]
+		}
+	]
+}
+{
+	"categoria" : "palomitas",
+	"descripcion" : [
+		{
+			"nombre" : "palomitas",
+			"busqueda" : [
+				"palomitas de maiz",
+				"palomitas de microondas",
+				"bolsa de palomitas act II",
+				"popcorn mycrowave",
+				"microwave popcorn packaging",
+				"popcorn packaging"
+			]
+		},
+		{
+			"nombre" : "palomitas act II",
+			"busqueda" : [
+				"palomitas act II",
+				"palomitas de maiz palomitas act II",
+				"bolsa de palomitas act II"
+			]
+		},
+		{
+			"nombre" : "palomitas Planet Pop ",
+			"busqueda" : [
+				"palomitas Planet Pop ",
+				"palomitas de maiz palomitas Planet Pop ",
+				"bolsa de palomitas Planet Pop "
+			]
+		},
+		{
+			"nombre" : "palomitas Golden Hills",
+			"busqueda" : [
+				"palomitas Golden Hills",
+				"palomitas de maiz palomitas Golden Hills",
+				"bolsa de palomitas Golden Hills"
+			]
+		},
+		{
+			"nombre" : "palomitas Best Choice",
+			"busqueda" : [
+				"palomitas Best Choice",
+				"palomitas de maiz palomitas Best Choice",
+				"bolsa de palomitas Best Choice"
+			]
+		},
+		{
+			"nombre" : "palomitas jolly Time",
+			"busqueda" : [
+				"palomitas jolly Time",
+				"palomitas de maiz palomitas jolly Time",
+				"bolsa de palomitas jolly Time"
+			]
+		},
+		{
+			"nombre" : "palomitas Veloz Movie Pop",
+			"busqueda" : [
+				"palomitas Veloz Movie Pop",
+				"palomitas de maiz palomitas Veloz Movie Pop",
+				"bolsa de palomitas Veloz Movie Pop"
+			]
+		}
+	]
+}
+{
+	"categoria": "sal",
+	"descripcion": [
+		{
+			"nombre" : "sal",
+			"busqueda" : [
+				"sal",
+				"sal yodada de mesa",
+				"salt",
+				"sal comun",
+				"sal marina",
+				"bolsa de sal"
+			]
+		},
+		{
+			"nombre" : "marolio",
+			"busqueda" : [
+				"sal de mesa marolio",
+				"sal marolio",
+				"bolsa de sal marolio"
+			]
+		},
+		{
+			"nombre" : "la fina",
+			"busqueda" : [
+				"sal de mesa la fina",
+				"sal la fina",
+				"sal yodada la fina",
+				"bolsa de sal la fina"
+			]
+		},
+		{
+			"nombre" : "crisal",
+			"busqueda" : [
+				"sal de mesa crisal",
+				"sal crisal",
+				"bolsa de sal crisal"
+			]
+		},
+		{
+			"nombre" : "emsal",
+			"busqueda" : [
+				"sal de mesa emsal",
+				"sal emsal",
+				"emsal salt",
+				"sal yodada emsal",
+				"bolsa de sal emsal"
+			]
+		},
+		{
+			"nombre" : "cisne",
+			"busqueda" : [
+				"sal de mesa cisne",
+				"sal cisne",
+				"sal grosso cisne",
+				"sal cisne light",
+				"sal cisne embalagem",
+				"bolsa de sal cisne"
+			]
+		},
+		{
+			"nombre" : "elefante",
+			"busqueda" : [
+				"sal de mesa elefante",
+				"sal elefante",
+				"sal elefante gourmet",
+				"bolsa de sal elefante"
+			]
+		}
+	]
+}
+{
+	"categoria": "cajeta",
+	"descripcion": [
+		{
+			"nombre" : "cajeta ",
+			"busqueda" : [
+				"cajeta ",
+				"cajeta marcas",
+				"cajeta quemada",
+				"cajeta presentaciones",
+				"caramel brands",
+				"caramel sauce brands"
+			]
+		},
+		{
+			"nombre" : "cajeta coronado",
+			"busqueda" : [
+				"cajeta coronado",
+				"cajeta coronado envinada",
+				"cajeta coronado quemada",
+				"cajeta coronado presentaciones",
+				"coronado cajeta"
+			]
+		},
+		{
+			"nombre" : "cajeta la especial",
+			"busqueda" : [
+				"cajeta la especial",
+				"botella cajeta la especial",
+				"envase de cajeta la especial"
+			]
+		},
+		{
+			"nombre" : "cajeta mybrand",
+			"busqueda" : [
+				"cajeta mybrand",
+				"botella cajeta mybrand",
+				"envase de cajeta mybrand"
+			]
+		},
+		{
+			"nombre" : "cajeta karo",
+			"busqueda" : [
+				"cajeta karo",
+				"botella cajeta karo",
+				"envase de cajeta karo"
+			]
+		},
+		{
+			"nombre" : "cajeta nestle",
+			"busqueda" : [
+				"cajeta nestle",
+				"botella cajeta nestle",
+				"envase de cajeta nestle"
+			]
+		},
+		{
+			"nombre" : "cajeta aldama",
+			"busqueda" : [
+				"cajeta aldama",
+				"botella cajeta aldama",
+				"envase de cajeta aldama"
+			]
+		},
+		{
+			"nombre" : "cajeta la reyna",
+			"busqueda" : [
+				"cajeta la reyna",
+				"botella cajeta la reyna",
+				"envase de cajeta la reyna"
+			]
+		},
+		{
+			"nombre" : "cajeta smuckers",
+			"busqueda" : [
+				"smuckers caramel sauce",
+				"smuckers salted caramel sauce",
+				"smuckers caramel syrup"
+			]
+		}
+	]
+}
+{
+	"categoria": "cafe",
+	"descripcion": [
+		{
+			"nombre" : "cafe",
+			"busqueda" : [
+				"cafe marcas",
+				"cafe de grano marcas",
+				"frasco de cafe ",
+				"bote de cafe",
+				"envase de cafe",
+				"coffe brands",
+				"coffe jar"
+			]
+		},
+		{
+			"nombre" : "cafe folgers",
+			"busqueda" : [
+				"cafe folgers",
+				"coffe folgers",
+				"frasco de cafe folgers",
+				"bote de cafe folgers",
+				"folgers cafe",
+				"folgers soluble",
+				"folgers decaf",
+				"folgers descafeinado",
+				"folgers classic roast"
+			]
+		},
+		{
+			"nombre" : "jeds coffe",
+			"busqueda" : [
+				"jeds coffe",
+				"jeds coffe bags",
+				"jed's coffee"
+			]
+		},
+		{
+			"nombre" : "cafe nescafe",
+			"busqueda" : [
+				"cafe nescafe",
+				"nescafe sobre",
+				"nescafe frasco",
+				"nescafe dolca",
+				"nescafe decaf",
+				"nescafe coffe",
+				"nescafe classic coffe",
+				"nescafe classic instant coffe",
+				"nescafe coffee sachets",
+				"cafe nescafe descafeinado",
+				"cafe nescafe presentaciones",
+				"nescafe clasico",
+				"nescafe clasico presentaciones",
+				"nescafe clasico png",
+				"nescafe clasico sobre",
+				"frasco de cafe nescafe",
+				"bote de cafe nescafe"
+			]
+		},
+		{
+			"nombre" : "cafe la parroquia",
+			"busqueda" : [
+				"frasco de cafe la parroquia",
+				"bote de cafe la parroquia"
+			]
+		},
+		{
+			"nombre" : "cafe los portales",
+			"busqueda" : [
+				"cafe los portales",
+				"cafe los portales gold",
+				"cafe gourmet los portales",
+				"frasco de cafe los portales",
+				"bote de cafe los portales"
+			]
+		},
+		{
+			"nombre" : "cafe juan valdes",
+			"busqueda" : [
+				"cafe juan valdes",
+				"cafe juan valdes liofilizado",
+				"cafe juan valdes vainilla",
+				"cafe juan valdes descafeinado",
+				"frasco de cafe juan valdes",
+				"bote de cafe juan valdes",
+				"juan valdez instant coffee"
+			]
+		},
+		{
+			"nombre" : "cafe legal",
+			"busqueda" : [
+				"cafe legal",
+				"cafe legal Tradicional",
+				"cafe legal soluble",
+				"cafe legal descafeinado",
+				"cafe legal sobre",
+				"cafe legal con canela",
+				"legal coffee",
+				"frasco de cafe legal",
+				"bote de cafe legal",
+				"cafe legal mexican coffee"
+			]
+		},
+		{
+			"nombre" : "cafe taster choice",
+			"busqueda" : [
+				"cafe taster choice",
+				"taster choice",
+				"taster choice descafeinado",
+				"taster choice caramel",
+				"taster choice vanilla",
+				"taster choice sabores",
+				"frasco de cafe los portales",
+				"bote de cafe los portales",
+				"taster's choice coffee",
+				"taster's choice instant coffee",
+				"taster's choice vanilla instant coffee",
+				"taster's choice coffee costco"
+			]
+		}
+	]
+}
+{
+	"categoria": "condones",
+	"descripcion": [
+		{
+			"nombre" : "condon",
+			"busqueda" : [
+				"condon",
+				"condom",
+				"condom box",
+				"preservativo",
+				"preservativo masculino marcas",
+				"caja de condones"
+			]
+		},
+		{
+			"nombre" : "condon prudence",
+			"busqueda" : [
+				"condon prudence",
+				"condones prudence",
+				"condones prudence de chocolate",
+				"condon prudence texturizado",
+				"condon prudence clasico",
+				"caja de condones prudence",
+				"prudence",
+				"prudence condones",
+				"prudence condones sbaores",
+				"prudence condoms"
+			]
+		},
+		{
+			"nombre" : "condon trojan",
+			"busqueda" : [
+				"condon trojan",
+				"condones trojan",
+				"condones trojan ecstasy",
+				"caja de condones trojan",
+				"trojan",
+				"trojan ecstasy",
+				"trojan condoms",
+				"trojan condoms  fire and ice",
+				"trojan condones",
+				"trojan condones texturizados"
+			]
+		},
+		{
+			"nombre" : "condon sico",
+			"busqueda" : [
+				"condon sico",
+				"caja de condones sico",
+				"sico",
+				"sico condones",
+				"sico sensitive",
+				"sico excess",
+				"sico safety",
+				"sico pleasure",
+				"sico real feel",
+				"sico ultra sense"
+			]
+		},
+		{
+			"nombre" : "condon big boy",
+			"busqueda" : [
+				"condon big boy",
+				"caja de condones big boy",
+				"big boy condoms",
+				"mega big boy condoms"
+			]
+		},
+		{
+			"nombre" : "condon M Force",
+			"busqueda" : [
+				"condon M Force",
+				"caja de condones M Force",
+				"M Force",
+				"M Force multio o",
+				"M Force condones",
+				"M Force condones sabores",
+				"M Force texturizado"
+			]
+		},
+		{
+			"nombre" : "condon Don Juan",
+			"busqueda" : [
+				"condon Don Juan",
+				"caja de condones Don Juan",
+				"Don Juan"
+			]
+		},
+		{
+			"nombre" : "condon imss",
+			"busqueda" : [
+				"condon imss",
+				"condon del imss",
+				"caja de condones Don Juan",
+				"condon possess",
+				"imss condon",
+				"isstte condones"
+			]
+		},
+		{
+			"nombre" : "condon durex",
+			"busqueda" : [
+				"condon durex",
+				"caja de condones durex",
+				"durex",
+				"durex condones",
+				"durex condoms",
+				"durex condoms extra safe"
+			]
+		}
+	]
+}
+{
+	"categoria": "cigarros",
+	"descripcion": [
+		{
+			"nombre" : "cigarros",
+			"busqueda" : [
+				"cigarros",
+				"cigarros cajetilla",
+				"cajetillas de cigarros",
+				"cajetilla de cigarros advertencias",
+				"cigarettes",
+				"cigarettes box",
+				"cigarrillos"
+			]
+		},
+		{
+			"nombre" : "cigarros marlboro",
+			"busqueda" : [
+				"cigarros marlboro",
+				"cigarros marlboro rojo",
+				"cigarros marlboro fresh",
+				"cigarros marlboro gold",
+				"cigarros marlboro con capsula",
+				"cajetilla de cigarros marlboro",
+				"cajetilla de cigarros marlboro advertencia",
+				"marlboro"
+			]
+		},
+		{
+			"nombre" : "cigarros LUCKY STRIKE",
+			"busqueda" : [
+				"cigarros LUCKY STRIKE",
+				"cajetilla de cigarros LUCKY STRIKE",
+				"LUCKY STRIKE",
+				"LUCKY STRIKE light",
+				"LUCKY STRIKE blue",
+				"LUCKY STRIKE silver",
+				"LUCKY STRIKE flow filter",
+				"LUCKY STRIKE sabores",
+				"LUCKY STRIKE morados",
+				"LUCKY STRIKE cigarettes"
+			]
+		},
+		{
+			"nombre" : "cigarros BELMONT",
+			"busqueda" : [
+				"cigarros BELMONT",
+				"cigarros BELMONT mentolados",
+				"cigarrillos BELMONT",
+				"caja de cigarros BELMONT",
+				"caja de BELMONT",
+				"BELMONT cigarettes",
+				"BELMONT cigarrillos"
+			]
+		},
+		{
+			"nombre" : "soyuz apollo cigarettes",
+			"busqueda" : [
+				"soyuz apollo cigarettes"
+			]
+		},
+		{
+			"nombre" : "cigarros PALL MALL",
+			"busqueda" : [
+				"cigarros PALL MALL",
+				"cigarrillos pall mall mentolados",
+				"caja de cigarros PALL MALL",
+				"cajetilla de cigarros PALL MALL",
+				"PALL MALL cigarros",
+				"PALL MALL black edition",
+				"PALL MALL click on",
+				"PALL MALL white",
+				"PALL MALL cigarrillos",
+				"PALL MALL cigarettes",
+				"PALL MALL menthol"
+			]
+		},
+		{
+			"nombre" : "cigarros PHILIP MORRIS",
+			"busqueda" : [
+				"cigarros PHILIP MORRIS",
+				"caja de cigarros PHILIP MORRIS",
+				"cajetilla de cigarros PHILIP MORRIS",
+				"PHILIP MORRIS mentolados",
+				"PHILIP MORRIS menthol",
+				"PHILIP MORRIS caps",
+				"PHILIP MORRIS cigarettes",
+				"PHILIP MORRIS cigarros",
+				"PHILIP MORRIS cigarrillos"
+			]
+		},
+		{
+			"nombre" : "cigarros camel",
+			"busqueda" : [
+				"cigarros camel",
+				"cigarros camel active",
+				"cigarros camel blue",
+				"cigarros camel menthol",
+				"cigarros camel crush",
+				"cajetilla de cigarros camel",
+				"caja de cigarros camel",
+				"camel cigarettes",
+				"camel tabaco",
+				"camel cigarrillos",
+				"imagenes de cigarrillos camel"
+			]
+		},
+		{
+			"nombre" : "cigarros viceroy",
+			"busqueda" : [
+				"cigarros viceroy",
+				"cajetilla de cigarros viceroy",
+				"viceroy cigarros",
+				"viceroy cigarettes",
+				"viceroy cigarrillos"
+			]
+		},
+		{
+			"nombre" : "cigarros benson & hedges",
+			"busqueda" : [
+				"cigarros benson & hedges",
+				"cigarros benson & hedges menthol",
+				"cajetilla de cigarros benson & hedges menthol",
+				"benson & hedges",	
+				"benson & hedges uno",
+				"benson hedges cigarettes"
+			]
+		}		
+	]
+}
+{
+	"categoria": "tequila",
+	"descripcion": [	
+		{
+			"nombre" : "tequila Don Julio",
+			"busqueda" : [
+				"tequila Don Julio",
+				"botella de tequila Don Julio",
+				"Don Julio",
+				"Don Julio tequila",
+				"botella don julio"
+			]
+		},
+		{
+			"nombre" : "tequila Jose Cuervo",
+			"busqueda" : [
+				"tequila Jose Cuervo",
+				"botella de tequila Jose Cuervo",
+				"Jose Cuervo",
+				"Jose Cuervo Tradicional",
+				"Jose Cuervo Gold",
+				"Jose Cuervo Reposado",
+				"Jose Cuervo Blanco",
+				"Jose Cuervo Silver",
+				"botella jose cuervo"
+			]
+		},
+		{
+			"nombre" : "tequila Corralejo",
+			"busqueda" : [
+				"tequila Corralejo",
+				"botella de tequila Corralejo",
+				"botellas de tequila Corralejo",
+				"Corralejo tequila",
+				"Corralejo tequila precio",
+				"Corralejo tequila reposado",
+				"Corralejo tequila reposado 750 ml",
+				"Corralejo tequila añejo",
+				"Corralejo tequila review"
+			]
+		},
+		{
+			"nombre" : "tequila Jimador",
+			"busqueda" : [
+				"tequila Jimador",
+				"tequila Jimador reposado",
+				"tequila Jimador Precio",
+				"tequila Jimador png",
+				"tequila Jimador Blanco",
+				"botella de tequila Jimador",
+				"Jimador",
+				"Jimador tequila"
+			]
+		},
+		{
+			"nombre" : "tequila Rancho Escondido",
+			"busqueda" : [
+				"tequila Rancho Escondido",
+				"botella de tequila Rancho Escondido",
+				"Rancho Escondido",
+				"Rancho Escondido 3 litros"
+			]
+		},
+		{
+			"nombre" : "tequila Viuda de Romero",
+			"busqueda" : [
+				"tequila Viuda de Romero",
+				"botella de tequila Viuda de Romero",
+				"Viuda de Romero",
+				"Viuda de Romero tequila"
+			]
+		},
+		{
+			"nombre" : "tequila Cabrito",
+			"busqueda" : [
+				"tequila Cabrito",
+				"tequila Cabrito Blanco",
+				"botellas de tequila Cabrito",
+				"botella de tequila Cabrito",
+				"Cabrito tequila",
+				"Cabrito tequila precio",
+				"Cabrito tequila reposado",
+				"imagenes tequila reposado"
+			]
+		},		
+		{
+			"nombre" : "tequila",
+			"busqueda" : [
+				"tequila",
+				"tequila marcas",
+				"tequila marcas caras",
+				"tequila marcas baratas",
+				"tequila botella"
+			]
+		},
+		{
+			"nombre" : "tequila Centenario",
+			"busqueda" : [
+				"tequila Centenario",
+				"tequila Centenario Azul",
+				"tequila Centenario añejo",
+				"tequila Centenario plata",
+				"botella de tequila Centenario",
+				"Centenario tequila",
+				"Centenario añejo",
+				"Centenario tequila precio"
+			]
+		},
+		{
+			"nombre" : "tequila Cazadores",
+			"busqueda" : [
+				"tequila Cazadores",
+				"tequila Cazadores precio",
+				"tequila Cazadores png",
+				"tequila Cazadores añejo",
+				"tequila Cazadores Blanco",
+				"botella de tequila Cazadores",
+				"Cazadores tequila"
+			]
+		},
+		{
+			"nombre" : "tequila Herradura",
+			"busqueda" : [
+				"tequila Herradura",
+				"tequila Herradura Blanco",
+				"tequila Herradura antiguo",
+				"tequila Herradura plata",
+				"botella de tequila Herradura",
+				"Herradura tequila",
+				"Herradura tequila ultra",
+				"Herradura tequila Reposado"
+			]
+		}
+	]
+}
+{
+	"categoria": "cerveza",
+	"descripcion": [
+		{
+			"nombre" : "cerveza ",
+			"busqueda" : [
+				"cerveza",
+				"cuauhtemoc moctezuma cervezas",
+				"grupo modelo cervezas",
+				"six pack beer",
+				"six pack cerveza",
+				"carton de cerveza",
+				"caguama",
+				"cerveza marcas",
+				"cerveza botella",
+				"cerveza presentaciones"
+			]
+		},
+		{
+			"nombre" : "cerveza corona",
+			"busqueda" : [
+				"cerveza corona",
+				"six pack corona",
+				"cerveza corona png",
+				"cerveza corona lata",
+				"cerveza corona light",
+				"cerveza corona extra",
+				"corona extra",
+				"corona extra beer",
+				"corona extra can",
+				"corona extra lata",
+				"cerveza corona mega",
+				"cerveza corona"
+			]
+		},
+		{
+			"nombre" : "cerveza modelo especial",
+			"busqueda" : [
+				"cerveza modelo especial",
+				"cerveza modelo especial lata",
+				"cerveza negra modelo",
+				"modelo especial",
+				"modelo especial beer",
+				"modelo especial can",
+				"modelo especial bottle",
+				"modelo especial ambar"
+			]
+		},
+		{
+			"nombre" : "cerveza tecate",
+			"busqueda" : [
+				"cerveza tecate",
+				"cerveza tecate lata",
+				"tecate",
+				"tecate light",
+				"tecate beer",
+				"tecate can",
+				"tecate bottle"
+			]
+		},
+		{
+			"nombre" : "cerveza heineken",
+			"busqueda" : [
+				"cerveza heineken",
+				"cerveza heineken lata",
+				"heineken",
+				"heineken light",
+				"heineken beer",
+				"heineken can",
+				"heineken bottle"
+			]
+		},
+		{
+			"nombre" : "cerveza dos equis",
+			"busqueda" : [
+				"cerveza dos equis",
+				"cerveza dos equis lata",
+				"dos equis lager",
+				"dos equis light",
+				"dos equis beer",
+				"dos equis can",
+				"dos equis bottle"
+			]
+		},
+		{
+			"nombre" : "cerveza indio",
+			"busqueda" : [
+				"cerveza indio",
+				"caguama indio",
+				"cerveza indio lata",
+				"indio beer",
+				"indio beer bottle"
+			]
+		},
+		{
+			"nombre" : "cerveza victoria",
+			"busqueda" : [
+				"cerveza victoria",
+				"caguama victoria",
+				"cerveza victoria lata",
+				"victoria beer"
+			]
+		},
+		{
+			"nombre" : "cerveza bud light",
+			"busqueda" : [
+				"cerveza bud light",
+				"six pack bud light",
+				"cerveza bud light lata",
+				"bud light beer"
+			]
+		},
+		{
+			"nombre" : "cerveza barrillito",
+			"busqueda" : [
+				"cerveza barrillito",
+				"six pack barrillito",
+				"barrillito beer"
+			]
+		},	
+		{
+			"nombre" : "cerveza pacifico",
+			"busqueda" : [
+				"cerveza pacifico",
+				"pacifico beer"
+			]
+		},
+		{
+			"nombre" : "cerveza sol",
+			"busqueda" : [
+				"cerveza sol",
+				"sol beer"
+			]
+		}
+	]
+}
+{
+	"categoria": "rastrillo",
+	"descripcion":[
+		{
+			"nombre" : "rastrillo",
+			"busqueda" : [
+				"rastrillo para afeitar",
+				"rastrillo de afeitar",
+				"rastrillo marcas"
+			]
+		},
+		{
+			"nombre" : "rastrillo gillette",
+			"busqueda" : [
+				"rastrillo gillette",
+				"rastrillo gillette mujer",
+				"gillette",
+				"gillette venus",
+				"gillette venus breeze",
+				"gillette venus divine",
+				"gillette prestobarba",
+				"gillette prestobarba 3",
+				"gillette prestobarba excel",
+				"gillette prestobarba ultragrip",
+				"gillette mach 3",
+				"gillette mach 3 sensitive",
+				"gillette shaver",
+				"gillette shaver blades",
+				"gillette shaver for women",
+				"gillette body shaver",
+				"gillette razor"
+			]
+		},
+		{
+			"nombre" : "rastrillo bic",
+			"busqueda" : [
+				"rastrillo bic",
+				"rastrillo bic twin",
+				"rastrillo bic flex 4",
+				"rastrillo bic comfort",
+				"bic razors for women",
+				"bic razors for her",
+				"bic razors soleil",
+				"bic shaver",
+				"bic sensitive shaver",
+				"bic lady shaver",
+				"bic body shaver",
+				"bic razors"
+			]
+		},
+		{
+			"nombre" : "rastrillo shick",
+			"busqueda" : [
+				"rastrillo shick",
+				"rastrillo shick xtreme 3",
+				"rastrillo shick mujer",
+				"shick xtreme 3",
+				"shick xtreme 3 sensible",
+				"shick xtreme 3 sensitive",
+				"shick quattro desechable",
+				"shick shaver",
+				"shick shaver women",
+				"shick razor"
+			]
+		}
+	]
+}

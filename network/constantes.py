@@ -1,0 +1,9 @@
+MODEL_FILE = 'caffenet_train_iter_10000.caffemodel'
+DEPLOY_FILE = 'deploy.prototxt'
+MEAN_FILE = 'mean.binaryproto'
+IMAGE_WIDTH = 227
+IMAGE_HEIGHT = 227
+ITERACIONES = 10000
+RUTA = "./test1/"
+CANALES = 3
+CAPAS = 2

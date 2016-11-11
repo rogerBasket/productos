@@ -2,6 +2,7 @@ import urllib2
 import os
 from datetime import datetime
 import socket
+import httplib
 
 from Nodo import Nodo
 from ABB import addNodo, inorden
@@ -18,25 +19,31 @@ RUTA = '/home/roger/caffe-productos/'
 def main():
 	if os.path.exists(RUTA):
 		absoluta = os.path.abspath(RUTA)
+	else:
+		return
 
 	categoriasGroups = getAllCategoria()
 
 	for categoria in categoriasGroups:
-		if categoria in ['refresco','yogur','boing','desodorante','jabon',
-			'papas','cereal','leche','aceite automovil','aceite cocina','chocolate'
-			'catsup','pasta dental','mermelada','mayonesa']:
-			continue
+		categoriaNombre = categoria['nombre']
+		
+		print categoriaNombre
 
-		if not os.path.exists(categoria):
-			os.makedirs(absoluta + '/' + categoria)
+		'''
+		if categoriaNombre in ['refresco']:
+			continue
+		'''
+
+		if not os.path.exists(absoluta + '/' + categoriaNombre):
+			os.makedirs(absoluta + '/' + categoriaNombre)
 		else:
 			continue
 
-		print 'categoria: ' + categoria
+		print 'nombre de categoria: ' + categoriaNombre
 
-		urlsDocuments = getInfoUrlsByCategoria(categoria)
+		urlsDocuments = getInfoUrlsByCategoria(categoriaNombre)
 
-		first = getFirstByCategoria(categoria)
+		first = getFirstByCategoria(categoriaNombre)
 		if first != None:
 			ext = first['mime']
 			if formato.has_key(ext):
@@ -72,12 +79,15 @@ def main():
 		descargas = 0
 		fallos = 0
 
+		archivo = None
+		response = None
+
 		for i in array:
 			try:
 				request = urllib2.Request(i[0], headers=header)
 				response = urllib2.urlopen(request, timeout = 3)
 
-				archivo = open(absoluta + '/' + categoria + '/' 
+				archivo = open(absoluta + '/' + categoriaNombre + '/' 
 					+ datetime.now().strftime('%d-%m-%Y_%H:%M:%S.%f') 
 					+ '.' + i[1],'wb')
 				archivo.write(response.read())
@@ -92,12 +102,17 @@ def main():
 			except socket.timeout as st:
 				print st, i
 				fallos += 1
+			except httplib.BadStatusLine as bsl:
+				print bsl, i
+				fallos += 1
 			finally:
-				archivo.close()
-				response.close()
+				if archivo != None:
+					archivo.close()
+				if response != None:
+					response.close()
 			print descargas, i
 
-		total = getCountDocumentsByCategoria(categoria)
+		total = getCountDocumentsByCategoria(categoriaNombre)
 
 		print 'links encontrados: ' + str(len(array))
 		print 'descargados: ' + str(descargas)

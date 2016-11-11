@@ -1,0 +1,129 @@
+{
+	"categoria" : [
+		{
+			"nombre": "refresco",
+			"clase": 0
+		},
+		{
+			"nombre": "yogur",
+			"clase": 1
+		},
+		{	
+			"nombre": "boing",
+			"clase": 2
+		},
+		{
+			"nombre": "desodorante",
+			"clase": 3
+		},
+		{
+			"nombre": "papas",
+			"clase": 4
+		},
+		{
+			"nombre": "jabon",
+			"clase": 5
+		},
+		{
+			"nombre": "pasta dental",
+			"clase": 6
+		},
+		{
+			"nombre": "leche",
+			"clase": 7
+		},
+		{
+			"nombre": "chocolate",
+			"clase": 8
+		},
+		{
+			"nombre": "cereal",
+			"clase": 9
+		},
+		{
+			"nombre": "aceite cocina",
+			"clase": 10
+		},
+		{
+			"nombre": "aceite automovil",
+			"clase": 11
+		},
+		{
+			"nombre": "mermelada",
+			"clase": 12
+		},
+		{
+			"nombre": "mayonesa",
+			"clase": 13
+		},
+		{
+			"nombre": "catsup",
+			"clase": 14
+		},
+		{
+			"nombre": "mostaza",
+			"clase": 15
+		},
+		{
+			"nombre": "shampoo",
+			"clase": 16
+		
+		},
+		{
+			"nombre": "talco",
+			"clase": 17
+		},
+		{
+			"nombre": "crema corporal",
+			"clase": 18
+		},
+		{
+			"nombre": "gel",
+			"clase": 19
+		},
+		{
+			"nombre": "pañales",
+			"clase": 20
+		},
+		{
+			"nombre": "crema",
+			"clase": 21
+		},
+		{
+			"nombre": "galletas",
+			"clase": 22
+		},
+		{
+			"nombre": "atun",
+			"clase": 23
+		},
+		{
+			"nombre": "palomitas",
+			"clase": 24
+		},
+		{
+			"nombre": "sal",
+			"clase": 25
+		},
+		{
+			"nombre": "cajeta",
+			"clase": 26
+		},
+		{
+			"nombre": "cafe",
+			"clase": 27
+		},
+		{
+			"nombre": "condones",
+			"clase": 28
+		},
+		{
+			"nombre": "cigarros",
+			"clase": 29
+		},
+		{
+			"nombre": "tequila",
+			"clase": 30
+		}
+	]
+}

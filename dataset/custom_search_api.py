@@ -1,7 +1,9 @@
 import json
+import time
 #from pymongo import MongoClient
  
 from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
 
 from urls_mongo import getTotalResults, getFindCategoria, \
 deleteUrlsByCategoria, getCountDocumentsByCategoria, addDocumentInUrls, \
@@ -12,6 +14,8 @@ from groups_mongo import getAllCategoria
 RESPUESTAS = 10
 IMAGES = 100
 PORCENTAJE = int(IMAGES/RESPUESTAS)
+RESET = False
+INTENTOS = 10
 
 def getKeys(properties):
 	f = open(properties,'r')
@@ -25,19 +29,33 @@ def getKeys(properties):
 
 	return val
 
+def count():
+	count.var += 1
+
+count.var = 0
+
 # funcion generadora del numero de peticiones
 def peticiones():
+	global RESET
+
 	n = 1
 	while n < IMAGES:
 		yield n
-		n = n+RESPUESTAS
+		if not RESET:
+			n += RESPUESTAS
+		else:
+			count()
+		RESET = False
+
+	#time.sleep(1)
 
 # obtener las categorias que se encuentran en la collection urls
 def listaCategoriasInUrls(categoriasGroups):
 	categoriasUrls = []
 
 	for i in categoriasGroups:
-		categoriaUrls = getFindCategoria(i)
+		print i['nombre']
+		categoriaUrls = getFindCategoria(i['nombre'])
 		
 		if categoriaUrls != None:
 			categoriasUrls.append(categoriaUrls)
@@ -48,8 +66,9 @@ def totalQueryByCategoria(categoria):
 	results = getTotalResultsByCategoria(categoria)
 	total = 0
 
-	for i in results:
-		total += len(i['busqueda'])
+	if results != None:
+		for i in results:
+			total += len(i['busqueda'])
 
 	return total
 
@@ -78,6 +97,7 @@ def main():
 	# the Google APIs Console <http://code.google.com/apis/console>
 	# to get an API key for your own application.
 	global IMAGES
+	global RESET
 
 	try:
 		#developer_key, custom_search_id = getKeys('google_api_dev.prop')
@@ -86,7 +106,8 @@ def main():
 		print 'parametros del archivo incorrectos'
 		exit()
 
-	print developer_key, custom_search_id
+	print developer_key
+	print custom_search_id
 
 	service = build("customsearch", "v1",
 		developerKey=developer_key.split('=')[1])
@@ -97,7 +118,7 @@ def main():
 	for i in categoriasUrls:
 		if not matchingTotalByCategoria(i):
 			categoriasUrls.remove(i)
-
+	
 	print 'total de documentos: ' + str(totalDocuments(categoriasGroups))
 
 	'''
@@ -111,8 +132,8 @@ def main():
 	'''
 
 	for categoria in categoriasGroups:
-		if categoria not in categoriasUrls:
-			productos = getDocumentByCategoria(categoria)
+		if categoria['nombre'] not in categoriasUrls:
+			productos = getDocumentByCategoria(categoria['nombre'])
 			for descripcion in [productos['descripcion']]:
 				for producto in descripcion:
 					print '\n', producto['nombre'] + ':',
@@ -121,8 +142,8 @@ def main():
 						flag = True
 						for patron in busqueda:
 							print patron,
-							
-							for num in peticiones():		
+
+							for num in peticiones():
 								webService = service.cse().list(
 									q=patron.encode('utf-8'),
 									cx=custom_search_id.split('=')[1],
@@ -132,7 +153,21 @@ def main():
 									start=num)
 
 								#print webService.to_json()
-								urlsImages = webService.execute()
+								try:
+									urlsImages = webService.execute()
+									count.var = 0
+								except HttpError as he:
+									print he, he.resp.status
+									print 'categoria: ' + categoria['nombre']
+
+									if count.var < INTENTOS:
+										RESET = True
+										time.sleep(5)
+										continue
+									else:
+										print 'Servidor no responde'
+										return
+
 								urlsImages['categoria'] = productos['categoria']
 								urlsImages['descripcion'] = producto['nombre']
 								
@@ -150,6 +185,7 @@ def main():
 									if totalResults < IMAGES:
 										IMAGES = totalResults
 									flag = False
+									
 
 	print 'total de documentos en collection urls: ' + str(getTotalDocumentsUrls())					
 
