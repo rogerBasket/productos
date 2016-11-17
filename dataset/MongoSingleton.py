@@ -11,3 +11,6 @@ def getSearch():
 
 def getGroups():
 	return db.groups
+
+def closeMongo():
+	client.close()

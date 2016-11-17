@@ -1,3 +1,6 @@
 images/
 histogram/
+train_lmdb/
+validation_lmdb/
+
 

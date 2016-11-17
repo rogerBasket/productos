@@ -18,8 +18,10 @@ class CreateAllHistogram:
 
 		for carpeta in carpetas:
 
+			'''
 			if os.path.basename(carpeta) in ['cafe']:
 				continue
+			'''
 
 			if not os.path.isdir(os.path.abspath(carpeta)):
 				print 'ruta encontrada no es un directorio: ' + str(carpeta)
@@ -33,6 +35,8 @@ class CreateAllHistogram:
 
 			for imagen in imagenes:
 				punt = None
+
+				print imagen
 
 				try:
 					im = Image.open(imagen)
