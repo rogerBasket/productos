@@ -7,4 +7,4 @@ ITERACIONES = 10000
 RUTA = "./test1/"
 CANALES = 3
 CAPAS = 2
-RUTA = '/home/roger/caffe-productos'
+RUTA = '/mnt/trabajo'

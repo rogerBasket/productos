@@ -10,11 +10,9 @@ from PIL import Image
 
 from caffe.io import array_to_datum
 
-from groups_mongo import getClassAndName
 from EqualizeHistogram import EqualizeHistogram
 from constantes import RUTA
 from SingletonLMDB import *
-from MongoSingleton import closeMongo
 
 SCORE = 6
 IMAGE_WIDTH = 227
@@ -24,10 +22,42 @@ COMMIT = 1000
 clase = -1
 label = 0
 
+productos = {
+	'refresco' : 0,
+	'yogur': 1,
+	'boing': 2,
+	'desodorante': 3,
+	'papas': 4,
+	'jabon': 5,
+	'pasta dental': 6,
+	'leche': 7,
+	'chocolate': 8,
+	'cereal': 9,
+	'aceite cocina': 10,
+	'aceite automovil': 11,
+	'mermelada': 12,
+	'mayonesa': 13,
+	'catsup': 14,
+	'mostaza': 15,
+	'shampoo': 16,
+	'talco': 17,
+	'crema corporal': 18,
+	'gel': 19,
+	'pañales': 20,
+	'crema': 21,
+	'galletas': 22,
+	'atun': 23,
+	'palomitas': 24,
+	'sal': 25,
+	'cajeta': 26,
+	'cafe': 27,
+	'condones': 28,
+	'cigarros': 29,
+	'tequila': 30
+}
+
 def getImagesAndClases():
 	carpetas = glob.glob(os.path.abspath(RUTA)+'/images/*')
-	clases = getClassAndName()
-	closeMongo()
 
 	global clase
 
@@ -37,11 +67,7 @@ def getImagesAndClases():
 			continue
 
 		clave = os.path.basename(carpeta)
-
-		for i in clases:
-			if i['nombre'].encode('utf-8') == clave:
-				clase = i['clase']
-				break
+		clase = productos[clave]		
 
 		print clase, clave
 
@@ -75,7 +101,6 @@ def createDB(db, funcion):
 	label = 0
 
 	for imagenes in getImagesAndClases():
-	#for imagenes in getImagesFile():
 		tx = db.begin(write=True)
 		punt = None
 
@@ -83,12 +108,6 @@ def createDB(db, funcion):
 			try:
 				label += 1
 
-				'''
-				if not funcion(label,SCORE):
-					label += 1
-
-				if True:
-				'''
 				if funcion(label,SCORE):
 					im = Image.open(imagen)
 					punt = im.fp
