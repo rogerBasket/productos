@@ -118,18 +118,8 @@ def main():
 	for i in categoriasUrls:
 		if not matchingTotalByCategoria(i):
 			categoriasUrls.remove(i)
-	
-	print 'total de documentos: ' + str(totalDocuments(categoriasGroups))
 
-	'''
-	for i in categorias['categoria']:
-		print i.encode('utf-8'), type(i.encode('utf-8'))
-	'''
-	
-	'''
-	print len(productos['descripcion'][0]['busqueda'])
-	print json.dumps(productos,indent=4,separators=(';',':'))
-	'''
+	print 'total de documentos: ' + str(totalDocuments(categoriasGroups))
 
 	for categoria in categoriasGroups:
 		if categoria['nombre'] not in categoriasUrls:
@@ -170,12 +160,6 @@ def main():
 
 								urlsImages['categoria'] = productos['categoria']
 								urlsImages['descripcion'] = producto['nombre']
-								
-								'''
-								urlsJson = json.dumps(urlsImages,indent=4,separators=(',',':'))
-								print urlsJson
-								print type(urlsImages), type(urlsJson)
-								'''
 
 								addDocumentInUrls(urlsImages)
 
@@ -184,8 +168,7 @@ def main():
 									#print int(totalResults)
 									if totalResults < IMAGES:
 										IMAGES = totalResults
-									flag = False
-									
+									flag = False									
 
 	print 'total de documentos en collection urls: ' + str(getTotalDocumentsUrls())					
 

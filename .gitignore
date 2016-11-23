@@ -2,5 +2,13 @@ images/
 histogram/
 train_lmdb/
 validation_lmdb/
+network/caffenet_train_iter_10000.caffemodel
+network/caffenet_train_iter_10000.solverstate
+network/caffenet_train_iter_5000.caffemodel
+network/caffenet_train_iter_5000.solverstate
+network/model_train_10000.log
+network/model_train_5000.log
+procesamiento/
+
 
 

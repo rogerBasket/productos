@@ -29,11 +29,6 @@ def main():
 		
 		print categoriaNombre
 
-		'''
-		if categoriaNombre in ['refresco']:
-			continue
-		'''
-
 		if not os.path.exists(absoluta + '/' + categoriaNombre):
 			os.makedirs(absoluta + '/' + categoriaNombre)
 		else:

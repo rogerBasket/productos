@@ -141,14 +141,12 @@ def createDB(db, funcion):
 def main():
 	if os.path.exists(RUTA):
 		
-		'''
 		print 'Creando lmdb train'
 		createDB(getTrainDB(),lambda x, y: x % y != 0) # lmdb train
 		print 'Done.'
-		'''
 
 		print 'Creando lmdb validation'
-		createDB(getValidationDB(),imagenes,clase,lambda x, y: x % y == 0) # lmdb validation
+		createDB(getValidationDB(),lambda x, y: x % y == 0) # lmdb validation
 		print 'Done.'
 
 	closeTrain()
