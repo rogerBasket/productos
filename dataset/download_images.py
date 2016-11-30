@@ -8,13 +8,12 @@ from Nodo import Nodo
 from ABB import addNodo, inorden
 from urls_mongo import *
 from groups_mongo import getAllCategoria
+from constantes import *
 
 formato = {
 	'image/jpeg':'jpg',
 	'image/png':'png'
 }
-
-RUTA = '/home/roger/caffe-productos/'
 
 def main():
 	if os.path.exists(RUTA):
