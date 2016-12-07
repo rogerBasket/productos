@@ -11,13 +11,8 @@ from PIL import Image
 from caffe.io import array_to_datum
 
 from EqualizeHistogram import EqualizeHistogram
-from constantes import RUTA
+from constantes import *
 from SingletonLMDB import *
-
-SCORE = 6
-IMAGE_WIDTH = 227
-IMAGE_HEIGHT = 227
-COMMIT = 1000
 
 clase = -1
 label = 0
