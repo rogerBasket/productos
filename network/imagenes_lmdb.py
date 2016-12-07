@@ -2,9 +2,7 @@ import glob
 import os
 import sys
 from PIL import Image
-
-RUTA = '/home/roger/caffe-productos/images'
-MODOS = ['P','RGBA','LA']
+from constantes import *
 
 def pngToJpg(carpeta = '.'):
 	carpeta = os.path.abspath(carpeta)
@@ -42,7 +40,7 @@ def renombrar(function, carpeta = '.'):
 		function(i,carpeta,j)
 
 def main(argv):
-	carpetas = glob.glob(RUTA+'/*')
+	carpetas = glob.glob(RUTA+'/images/*')
 	#carpetas = ['cafe']
 
 	for c in carpetas:
