@@ -11,13 +11,8 @@ from PIL import Image
 from caffe.io import array_to_datum
 
 from EqualizeHistogram import EqualizeHistogram
-from constantes import RUTA
+from constantes import *
 from SingletonLMDB import *
-
-SCORE = 6
-IMAGE_WIDTH = 227
-IMAGE_HEIGHT = 227
-COMMIT = 1000
 
 clase = -1
 label = 0
@@ -57,7 +52,7 @@ productos = {
 }
 
 def getImagesAndClases():
-	carpetas = glob.glob(os.path.abspath(RUTA)+'/images/*')
+	carpetas = glob.glob(os.path.abspath(RUTA)+'/augmentation/*')
 
 	global clase
 
@@ -74,7 +69,7 @@ def getImagesAndClases():
 		if clase == -1:
 			exit(0)
 
-		imagenes = glob.glob(os.path.abspath(carpeta)+'/*.jpg')
+		imagenes = glob.glob(os.path.abspath(carpeta)+'/*.jpeg')
 
 		random.shuffle(imagenes)
 
@@ -131,7 +126,8 @@ def createDB(db, funcion):
 				print 'Imagen:', imagen
 				print ioe
 			except:
-				pass
+				print 'Imagen:', imagen
+				print 'error desconocido'
 			finally:
 				if punt != None and not punt.closed:
 					punt.close()
