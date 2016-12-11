@@ -10,8 +10,9 @@ network/model_train_10000.log
 network/model_train_5000.log
 procesamiento/
 augmentation/
+10productos/
 db.sqlite3
 manage.py
 rest/
 ws/
-
+*.pyc

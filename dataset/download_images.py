@@ -8,7 +8,7 @@ from Nodo import Nodo
 from ABB import addNodo, inorden
 from urls_mongo import *
 from groups_mongo import getAllCategoria
-from constantes import *
+from constantes import RUTA
 
 formato = {
 	'image/jpeg':'jpg',
@@ -28,10 +28,11 @@ def main():
 		
 		print categoriaNombre
 
+		if categoriaNombre in ['pantalon','tenis','rastrillo']:
+			continue
+
 		if not os.path.exists(absoluta + '/' + categoriaNombre):
 			os.makedirs(absoluta + '/' + categoriaNombre)
-		else:
-			continue
 
 		print 'nombre de categoria: ' + categoriaNombre
 
@@ -98,6 +99,9 @@ def main():
 				fallos += 1
 			except httplib.BadStatusLine as bsl:
 				print bsl, i
+				fallos += 1
+			except httplib.IncompleteRead as ir:
+				print ir, i
 				fallos += 1
 			finally:
 				if archivo != None:

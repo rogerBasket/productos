@@ -1,0 +1,871 @@
+{
+	"categoria": "pantalon",
+	"descripcion": [	
+		{
+			"nombre": "pantalon",
+			"busqueda": [
+				"pantalon",
+				"jeans",
+				"pants",
+				"pantalon de mezclilla",
+				"pantalon de pana",
+				"blue jeans",
+				"black jeans",
+				"jeans negros",
+				"jeans blancos",
+				"jeans azules"
+			]
+		},
+		{
+			"nombre" : "pantalon levis",
+			"busqueda" : [
+				"pantalon levis",
+				"jeans levis",
+				"pants levis",
+				"pantalon levis grande",
+				"pantalon levis mediano",
+				"pantalon levis chico",
+				"pantalon levis azul",
+				"pantalon levis negro",
+				"pantalon levis caballero",
+				"pantalon levis dama",
+				"pantalon levis vaquero"
+			]
+		},
+		{
+			"nombre" : "pantalon Tommy Hilfiger",
+			"busqueda" : [
+				"pantalon Tommy Hilfiger",
+				"jeans Tommy Hilfiger",
+				"pants Tommy Hilfiger",
+				"pantalon Tommy Hilfiger grande",
+				"pantalon Tommy Hilfiger mediano",
+				"pantalon Tommy Hilfiger chico",
+				"pantalon Tommy Hilfiger azul",
+				"pantalon Tommy Hilfiger negro",
+				"pantalon Tommy Hilfiger caballero",
+				"pantalon Tommy Hilfiger dama",
+				"pantalon Tommy Hilfiger vaquero"
+			]
+		},
+		{
+			"nombre" : "pantalon Zara",
+			"busqueda" : [
+				"pantalon Zara",
+				"jeans Zara",
+				"pants Zara",
+				"pantalon Zara grande",
+				"pantalon Zara mediano",
+				"pantalon Zara chico",
+				"pantalon Zara azul",
+				"pantalon Zara negro",
+				"pantalon Zara caballero",
+				"pantalon Zara dama",
+				"pantalon Zara vaquero"
+			]
+		},
+		{
+			"nombre" : "pantalon H&M",
+			"busqueda" : [
+				"pantalon H&M",
+				"jeans H&M",
+				"pants H&M",
+				"pantalon H&M grande",
+				"pantalon H&M mediano",
+				"pantalon H&M chico",
+				"pantalon H&M azul",
+				"pantalon H&M negro",
+				"pantalon H&M caballero",
+				"pantalon H&M dama",
+				"pantalon H&M vaquero"
+			]
+		},
+		{
+			"nombre" : "pantalon oggi jeans",
+			"busqueda" : [
+				"pantalon oggi jeans",
+				"oggi jeans",
+				"pants oggi jeans",
+				"pantalon oggi jeans grande",
+				"pantalon oggi jeans mediano",
+				"pantalon oggi jeans chico",
+				"pantalon oggi jeans azul",
+				"pantalon oggi jeans negro",
+				"pantalon oggi jeans caballero",
+				"pantalon oggi jeans dama",
+				"pantalon oggi jeans vaquero"
+			]
+		},
+		{
+			"nombre" : "pantalon dockers",
+			"busqueda" : [
+				"pantalon dockers",
+				"pants dockers",
+				"pantalon dockers grande",
+				"pantalon dockers mediano",
+				"pantalon dockers chico",
+				"pantalon dockers azul",
+				"pantalon dockers negro",
+				"pantalon dockers caballero",
+				"pantalon dockers dama",
+				"pantalon dockers vaquero"
+			]
+		},
+		{
+			"nombre" : "pantalon timberland",
+			"busqueda" : [
+				"pantalon timberland",
+				"pants timberland",
+				"pantalon timberland grande",
+				"pantalon timberland mediano",
+				"pantalon timberland chico",
+				"pantalon timberland azul",
+				"pantalon timberland negro",
+				"pantalon timberland caballero",
+				"pantalon timberland dama",
+				"pantalon timberland vaquero"
+			]
+		}
+	]
+}
+{
+	"categoria": "rastrillo",
+	"descripcion" : [
+		{
+			"nombre" : "rastrillo ",
+			"busqueda" : [
+				"rastrillo para afeitar",
+				"rastrillo de afeitar",
+				"rastrillo marcas"
+			]
+		},
+		{
+			"nombre" : "rastrillo gillette",
+			"busqueda" : [
+				"rastrillo gillette",
+				"rastrillo gillette mujer",
+				"gillette",
+				"gillette venus",
+				"gillette venus breeze",
+				"gillette venus divine",
+				"gillette prestobarba",
+				"gillette prestobarba 3",
+				"gillette prestobarba excel",
+				"gillette prestobarba ultragrip",
+				"gillette mach 3",
+				"gillette mach 3 sensitive",
+				"gillette shaver",
+				"gillette shaver blades",
+				"gillette shaver for women",
+				"gillette body shaver",
+				"gillette razor"
+			]
+		},
+		{
+			"nombre" : "rastrillo bic",
+			"busqueda" : [
+				"rastrillo bic",
+				"rastrillo bic twin",
+				"rastrillo bic flex 4",
+				"rastrillo bic comfort",
+				"bic razors for women",
+				"bic razors for her",
+				"bic razors soleil",
+				"bic shaver",
+				"bic sensitive shaver",
+				"bic lady shaver",
+				"bic body shaver",
+				"bic razors"
+			]
+		},
+		{
+			"nombre" : "rastrillo shick",
+			"busqueda" : [
+				"rastrillo shick",
+				"rastrillo shick xtreme 3",
+				"rastrillo shick mujer",
+				"shick xtreme 3",
+				"shick xtreme 3 sensible",
+				"shick xtreme 3 sensitive",
+				"shick quattro desechable",
+				"shick shaver",
+				"shick shaver women",
+				"shick razor"
+			]
+		}
+	]
+}
+{
+	"categoria" : "tenis",
+	"descripcion" : [
+		{
+			"nombre" : "zapato tenis",
+			"busqueda" : [
+				"zapato tenis",
+				"tenis deportivo",
+				"tenis blancos",
+				"tenis negros",
+				"tenis azules",
+				"tenis cafes",
+				"tenis para correr",
+				"tennis shoes",
+				"mens tennis shoes",
+				"womens tennis shoes",
+				"tenis tacos"
+			]
+		},
+		{
+			"nombre" : "tennis adidas",
+			"busqueda" : [
+				"adidas shoes",
+				"tenis adidas",
+				"tenis adidas blancos",
+				"tenis adidas negros",
+				"tenis adidas azules",
+				"adidas mens shoes",
+				"adidas womens shoes"
+			]
+		},
+		{
+			"nombre" : "tennis nike",
+			"busqueda" : [
+				"nike shoes",
+				"tenis nike",
+				"tenis nike blancos",
+				"tenis nike negros",
+				"tenis nike azules",
+				"nike mens shoes",
+				"nike womens shoes"
+			]
+		},
+		{
+			"nombre" : "tennis puma",
+			"busqueda" : [
+				"puma shoes",
+				"tenis puma",
+				"tennis puma",
+				"tenis puma blancos",
+				"tenis puma negros",
+				"tenis puma azules",
+				"puma mens shoes",
+				"puma womens shoes"
+			]
+		},
+		{
+			"nombre" : "tennis umbro",
+			"busqueda" : [
+				"umbro shoes",
+				"tenis umbro",
+				"tenis umbro blancos",
+				"tenis umbro negros",
+				"tenis umbro azules",
+				"umbro mens shoes",
+				"umbro womens shoes"
+			]
+		},
+		{
+			"nombre" : "tennis reebok",
+			"busqueda" : [
+				"reebok shoes",
+				"tenis reebok",
+				"tenis reebok blancos",
+				"tenis reebok negros",
+				"tenis reebok azules",
+				"reebok mens shoes",
+				"reebok womens shoes"
+			]
+		},
+		{
+			"nombre" : "tennis converse",
+			"busqueda" : [
+				"converse shoes",
+				"tenis converse",
+				"tenis converse blancos",
+				"tenis converse negros",
+				"tenis converse azules",
+				"converse mens shoes",
+				"converse womens shoes"
+			]
+		},
+		{
+			"nombre" : "tennis vans",
+			"busqueda" : [
+				"vans shoes",
+				"tenis vans",
+				"tenis vans blancos",
+				"tenis vans negros",
+				"tenis vans azules",
+				"vans mens shoes",
+				"vans womens shoes"
+			]
+		}
+	]
+}
+{
+	"categoria" : "balon",
+	"descripcion" : [
+		{
+			"nombre" : "balon",
+			"busqueda" : [
+				"balon",
+				"pelota",
+				"ball",
+				"soccer ball",
+				"basketball ball"
+			]
+		},
+		{
+			"nombre" : "balon nike",
+			"busqueda" : [
+				"balon nike",
+				"nike ball",
+				"nike soccer ball",
+				"nike basketball ball",
+				"pelota nike"
+			]
+		},
+		{
+			"nombre" : "balon wilson",
+			"busqueda" : [
+				"balon wilson",
+				"wilson ball",
+				"wilson soccer ball",
+				"wilson basketball ball",
+				"pelota wilson"
+			]
+		},
+		{
+			"nombre" : "balon spalding",
+			"busqueda" : [
+				"balon spalding",
+				"spalding ball",
+				"spalding basketball ball",
+				"pelota spalding"
+			]
+		},
+		{
+			"nombre" : "balon adidas",
+			"busqueda" : [
+				"balon adidas",
+				"adidas ball",
+				"adidas soccer ball",
+				"pelota adidas"
+			]
+		},
+		{
+			"nombre" : "balon voit",
+			"busqueda" : [
+				"balon voit",
+				"voit ball",
+				"voit soccer ball",
+				"pelota voit"
+			]
+		},
+		{
+			"nombre" : "balon umbro",
+			"busqueda" : [
+				"balon umbro",
+				"umbro ball",
+				"umbro soccer ball",
+				"pelota umbro"
+			]
+		}
+	]
+}
+{
+	"categoria" : "camara digital",
+	"descripcion" : [	
+		{
+			"nombre" : "camara digital",
+			"busqueda" : [
+				"camara",
+				"camera",
+				"reflex camera",
+				"bridge camera",
+				"digital camera",
+				"camara digital",
+				"camara reflex",
+				"camara compacta",
+				"compact camera",
+				"camara DSLR",
+				"DSLR camera",
+				"35mm camera"
+			]
+		},
+		{
+			"nombre" : "camara nikon",
+			"busqueda" : [
+				"camara nikon",
+				"nikon camera",
+				"nikon reflex",
+				"nikon bridge",
+				"nikon digital camera",
+				"camara digital nikon",
+				"nikon compact",
+				"nikon DSLR",
+				"nikon 35mm camera"
+			]
+		},
+		{
+			"nombre" : "camara canon",
+			"busqueda" : [
+				"camara canon",
+				"canon camera",
+				"canon reflex",
+				"canon bridge",
+				"canon digital camera",
+				"camara digital canon",
+				"canon compact",
+				"canon DSLR",
+				"canon 35mm camera"
+			]
+		},
+		{
+			"nombre" : "camara sony",
+			"busqueda" : [
+				"camara sony",
+				"sony camera",
+				"sony reflex",
+				"sony bridge",
+				"sony digital camera",
+				"camara digital sony",
+				"sony compact",
+				"sony DSLR",
+				"sony 35mm camera"
+			]
+		},
+		{
+			"nombre" : "camara kodak",
+			"busqueda" : [
+				"camara kodak",
+				"kodak camera",
+				"kodak reflex",
+				"kodak bridge",
+				"kodak digital camera",
+				"camara digital kodak",
+				"kodak compact",
+				"kodak DSLR",
+				"kodak 35mm camera"
+			]
+		},
+		{
+			"nombre" : "camara panasonic",
+			"busqueda" : [
+				"camara panasonic",
+				"panasonic camera",
+				"panasonic reflex",
+				"panasonic bridge",
+				"panasonic digital camera",
+				"camara digital panasonic",
+				"panasonic compact",
+				"panasonic DSLR",
+				"panasonic 35mm camera"
+			]
+		},
+		{
+			"nombre" : "camara fujifilm",
+			"busqueda" : [
+				"camara fujifilm",
+				"fujifilm camera",
+				"fujifilm reflex",
+				"fujifilm bridge",
+				"fujifilm digital camera",
+				"camara digital fujifilm",
+				"fujifilm compact",
+				"fujifilm DSLR",
+				"fujifilm 35mm camera"
+			]
+		},
+		{
+			"nombre" : "camara casio",
+			"busqueda" : [
+				"camara casio",
+				"casio camera",
+				"casio reflex",
+				"casio bridge",
+				"casio digital camera",
+				"camara digital casio",
+				"casio compact",
+				"casio DSLR",
+				"casio 35mm camera"
+			]
+		}
+	]
+}
+{
+	"categoria" : "bicicleta",
+	"descripcion" : [	
+		{
+			"nombre" : "bicicleta",
+			"busqueda" : [
+				"bicicleta",
+				"bicicleta de montaña",
+				"bicycle",
+				"bike",
+				"bicicleta de carreras"
+			]
+		},
+		{
+			"nombre" : "bicicleta benotto",
+			"busqueda" : [
+				"bicicleta benotto",
+				"bicicleta de montaña benotto",
+				"benotto bike",
+				"benotto bicycle",
+				"Benotto racing bicycle"
+			]
+		},
+		{
+			"nombre" : "bicicleta shimano",
+			"busqueda" : [
+				"bicicleta shimano",
+				"bicicleta de montaña shimano",
+				"shimano bike",
+				"shimano bicycle",
+				"shimano racing bicycle"
+			]
+		},
+		{
+			"nombre" : "bicicleta bmx",
+			"busqueda" : [
+				"bicicleta bmx",
+				"bicicleta de montaña bmx",
+				"bmx bike",
+				"bmx bicycle",
+				"bmx racing bicycle"
+			]
+		},
+		{
+			"nombre" : "bicicleta trek",
+			"busqueda" : [
+				"bicicleta trek",
+				"bicicleta de montaña trek",
+				"trek bike",
+				"trek bicycle",
+				"trek racing bicycle"
+			]
+		}
+	]
+}
+{
+	"categoria" : "audifonos",
+	"descripcion" : [	
+		{
+			"nombre" : "audifonos",
+			"busqueda" : [
+				"audifonos",
+				"audifonos bluetooth",
+				"headphones",
+				"audifonos alambricos",
+				"audifonos inalambricos"
+			]
+		},
+		{
+			"nombre" : "audifonos sony",
+			"busqueda" : [
+				"audifonos sony",
+				"audifonos bluetooth sony",
+				"headphones sony",
+				"audifonos alambricos sony",
+				"audifonos inalambricos sony"
+			]
+		},
+		{
+			"nombre" : "audifonos samsung",
+			"busqueda" : [
+				"audifonos samsung",
+				"audifonos bluetooth samsung",
+				"headphones samsung",
+				"audifonos alambricos samsung",
+				"audifonos inalambricos samsung"
+			]
+		},
+		{
+			"nombre" : "audifonos skullcandy",
+			"busqueda" : [
+				"audifonos skullcandy",
+				"audifonos bluetooth skullcandy",
+				"headphones skullcandy",
+				"audifonos alambricos skullcandy",
+				"audifonos inalambricos skullcandy"
+			]
+		},
+		{
+			"nombre" : "audifonos pioneer",
+			"busqueda" : [
+				"audifonos pioneer",
+				"audifonos bluetooth pioneer",
+				"headphones pioneer",
+				"audifonos alambricos pioneer",
+				"audifonos inalambricos pioneer"
+			]
+		},
+		{
+			"nombre" : "audifonos apple",
+			"busqueda" : [
+				"audifonos apple",
+				"audifonos bluetooth apple",
+				"headphones apple",
+				"audifonos alambricos apple",
+				"audifonos inalambricos apple"
+			]
+		}
+	]
+}
+{
+	"categoria" : "mochilas",
+	"descripcion" : [	
+		{
+			"nombre" : "mochila",
+			"busqueda" : [
+				"mochila",
+				"Backpack",
+				"mochila escolar",
+				"school backpack"
+			]
+		},
+		{
+			"nombre" : "mochila oggi",
+			"busqueda" : [
+				"mochila oggi",
+				"oggi Backpack",
+				"mochila escolar oggi",
+				"oggi school backpack"
+			]
+		},
+		{
+			"nombre" : "mochila wilson",
+			"busqueda" : [
+				"mochila wilson",
+				"wilson Backpack",
+				"mochila escolar wilson",
+				"wilson school backpack"
+			]
+		},
+		{
+			"nombre" : "mochila nike",
+			"busqueda" : [
+				"mochila nike",
+				"nike Backpack",
+				"mochila escolar nike",
+				"nike school backpack"
+			]
+		},
+		{
+			"nombre" : "mochila puma",
+			"busqueda" : [
+				"mochila puma",
+				"puma Backpack",
+				"mochila escolar puma",
+				"puma school backpack"
+			]
+		},
+		{
+			"nombre" : "mochila converse",
+			"busqueda" : [
+				"mochila converse",
+				"converse Backpack",
+				"mochila escolar converse",
+				"converse school backpack"
+			]
+		}
+	]
+}
+{
+	"categoria" : "celulares",
+	"descripcion" : [	
+		{
+			"nombre" : "celulares",
+			"busqueda" : [
+				"celular",
+				"telefono movil",
+				"smartphone",
+				"movil",
+				"cellphone",
+				"dispositivo movil"
+			]
+		},
+		{
+			"nombre" : "celular samsung",
+			"busqueda" : [
+				"celular samsung",
+				"telefono movil samsung",
+				"smartphone samsung",
+				"movil samsung",
+				"cellphone samsung",
+				"dispositivo movil samsung"
+			]
+		},
+		{
+			"nombre" : "celular nokia",
+			"busqueda" : [
+				"celular nokia",
+				"telefono movil nokia",
+				"smartphone nokia",
+				"movil nokia",
+				"cellphone nokia",
+				"dispositivo movil nokia"
+			]
+		},
+		{
+			"nombre" : "celular motorola",
+			"busqueda" : [
+				"celular motorola",
+				"telefono movil motorola",
+				"smartphone motorola",
+				"movil motorola",
+				"cellphone motorola",
+				"dispositivo movil motorola"
+			]
+		},
+		{
+			"nombre" : "celular huawei",
+			"busqueda" : [
+				"celular huawei",
+				"telefono movil huawei",
+				"smartphone huawei",
+				"movil huawei",
+				"cellphone huawei",
+				"dispositivo movil huawei"
+			]
+		},
+		{
+			"nombre" : "celular lg",
+			"busqueda" : [
+				"celular lg",
+				"telefono movil lg",
+				"smartphone lg",
+				"movil lg",
+				"cellphone lg",
+				"dispositivo movil lg"
+			]
+		},
+		{
+			"nombre" : "celular apple",
+			"busqueda" : [
+				"celular apple",
+				"telefono movil apple",
+				"smartphone apple",
+				"movil apple",
+				"cellphone apple",
+				"dispositivo movil apple"
+			]
+		},
+		{
+			"nombre" : "celular sony",
+			"busqueda" : [
+				"celular sony",
+				"telefono movil sony",
+				"smartphone sony",
+				"movil sony",
+				"cellphone sony",
+				"dispositivo movil sony"
+			]
+		}
+	]
+}
+{
+	"categoria" : "llanta",
+	"descripcion" : [
+		{
+			"nombre" : "llanta",
+			"busqueda" : [
+				"llanta",
+				"llanta r15",
+				"llanta de carro",
+				"llanta de tractor",
+				"llanta de motocicleta",
+				"tire",
+				"tire 195",
+				"car tire",
+				"tractor tire",
+				"motorcycle tire",
+				"car wheel"
+			]
+		},
+		{
+			"nombre" : "llanta michelin",
+			"busqueda" : [
+				"llanta michelin",
+				"michelin 195",
+				"michelin r15",
+				"llanta de carro michelin",
+				"michelin tire",
+				"michelin car tire",
+				"michelin motorcycle tire"
+			]
+		},
+		{
+			"nombre" : "llanta bridgestone",
+			"busqueda" : [
+				"llanta bridgestone",
+				"bridgestone 195",
+				"bridgestone r15",
+				"llanta de carro bridgestone",
+				"bridgestone tire",
+				"bridgestone car tire",
+				"bridgestone motorcycle tire"
+			]
+		},
+		{
+			"nombre" : "llanta continental",
+			"busqueda" : [
+				"llanta continental",
+				"continental 195",
+				"continental r15",
+				"llanta de carro continental",
+				"continental tire",
+				"continental car tire",
+				"continental motorcycle tire"
+			]
+		},
+		{
+			"nombre" : "llanta goodyear",
+			"busqueda" : [
+				"llanta goodyear",
+				"goodyear 195",
+				"goodyear r15",
+				"llanta de carro goodyear",
+				"goodyear tire",
+				"goodyear car tire",
+				"goodyear motorcycle tire"
+			]
+		},
+		{
+			"nombre" : "llanta pirelli",
+			"busqueda" : [
+				"llanta pirelli",
+				"pirelli 195",
+				"pirelli r15",
+				"llanta de carro pirelli",
+				"pirelli tire",
+				"pirelli car tire",
+				"pirelli motorcycle tire"
+			]
+		},
+		{
+			"nombre" : "llanta dunlop",
+			"busqueda" : [
+				"llanta dunlop",
+				"dunlop 195",
+				"dunlop r15",
+				"llanta de carro dunlop",
+				"dunlop tire",
+				"dunlop car tire",
+				"dunlop motorcycle tire"
+			]
+		},
+		{
+			"nombre" : "llanta firestone",
+			"busqueda" : [
+				"llanta firestone",
+				"firestone 195",
+				"firestone r15",
+				"llanta de carro firestone",
+				"firestone tire",
+				"firestone car tire",
+				"firestone motorcycle tire"
+			]
+		}
+	]
+}
