@@ -10,5 +10,5 @@ DATA_AUGMENTATION = 150
 CANALES = 3
 CAPAS = 2
 RUTA = '/home/alien/productos'
-VOLUMEN = 2100
+VOLUMEN = 6000
 MODOS = ['P','RGBA','LA']

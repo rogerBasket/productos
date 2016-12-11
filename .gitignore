@@ -15,4 +15,5 @@ manage.py
 rest/
 ws/
 *.pyc
+10augmentation/
 

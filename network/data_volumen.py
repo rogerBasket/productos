@@ -8,11 +8,13 @@ def deleteImagenes(imagenes):
 		os.remove(imagen)
 
 def main():
-	carpetas = glob.glob(RUTA + '/augmentation/*')
+	carpetas = glob.glob(RUTA + '/10augmentation/*')
 	#carpetas = [RUTA + '/augmentation/atun']
 
 	for carpeta in carpetas:
 		carpeta = os.path.abspath(carpeta)
+
+		print carpeta
 
 		if not os.path.isdir(carpeta):
 			continue
