@@ -1,7 +1,7 @@
 images/
 histogram/
-train_lmdb/
-validation_lmdb/
+train_lmdb*/
+validation_lmdb*/
 network/caffenet_train_iter_10000.caffemodel
 network/caffenet_train_iter_10000.solverstate
 network/caffenet_train_iter_5000.caffemodel

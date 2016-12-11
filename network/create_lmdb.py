@@ -17,6 +17,7 @@ from SingletonLMDB import *
 clase = -1
 label = 0
 
+'''
 productos = {
 	'refresco' : 0,
 	'yogur': 1,
@@ -50,9 +51,23 @@ productos = {
 	'cigarros': 29,
 	'tequila': 30
 }
+'''
+
+productos = {
+	'pantalon': 0,
+	'rastrillo': 1,
+	'tenis': 2,
+	'balon': 3,
+	'camara digital': 4,
+	'bicicleta': 5,
+	'audifonos': 6,
+	'mochilas': 7,
+	'celulares': 8,
+	'llanta': 9
+}
 
 def getImagesAndClases():
-	carpetas = glob.glob(os.path.abspath(RUTA)+'/augmentation/*')
+	carpetas = glob.glob(os.path.abspath(RUTA) + AUGMENTATION_PATH + '/*')
 
 	global clase
 

@@ -12,3 +12,4 @@ CAPAS = 2
 RUTA = '/home/alien/productos'
 VOLUMEN = 6000
 MODOS = ['P','RGBA','LA']
+AUGMENTATION_PATH = '/10augmentation'
