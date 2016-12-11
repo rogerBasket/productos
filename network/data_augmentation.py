@@ -9,6 +9,8 @@ from constantes import *
 import os
 import glob
 
+PROCESO_IMAGES = '/10productos'
+
 datagen = ImageDataGenerator(
         rotation_range=40,
         width_shift_range=0.2,
@@ -19,13 +21,13 @@ datagen = ImageDataGenerator(
         fill_mode='nearest')
 
 def main():
-    if not os.path.exists(RUTA + '/procesamiento'):
+    if not os.path.exists(RUTA + PROCESO_IMAGES):
         exit(0)
 
     if not os.path.exists(RUTA + '/augmentation'):
         os.makedirs(RUTA + '/augmentation')
 
-    carpetas = glob.glob(RUTA + '/procesamiento/*')
+    carpetas = glob.glob(RUTA + PROCESO_IMAGES + '/*')
 
     for carpeta in carpetas:
         carpeta = os.path.abspath(carpeta)
@@ -43,8 +45,7 @@ def main():
             imagen = os.path.abspath(imagen)
 
 
-            if prefijo in ['cafe','cigarros','galletas',
-                                            'pañales','catsup','talco','sal']:
+            if prefijo not in ['rastrillo']:
                 continue
 
             print prefijo, imagen

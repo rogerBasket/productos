@@ -88,7 +88,7 @@ def totalDocuments(categoriasGroups):
 	total = 0
 
 	for i in categoriasGroups:
-		total += totalQueryByCategoria(i)*PORCENTAJE
+		total += totalQueryByCategoria(i['nombre'])*PORCENTAJE
 
 	return total
 
@@ -112,16 +112,16 @@ def main():
 	service = build("customsearch", "v1",
 		developerKey=developer_key.split('=')[1])
 
-	categoriasGroups = getAllCategoria()
-	categoriasUrls = listaCategoriasInUrls(categoriasGroups)
+	#categoriasGroups = getAllCategoria()
+	categoriasUrls = listaCategoriasInUrls(getAllCategoria())
 
 	for i in categoriasUrls:
 		if not matchingTotalByCategoria(i):
 			categoriasUrls.remove(i)
 
-	print 'total de documentos: ' + str(totalDocuments(categoriasGroups))
+	print 'total de documentos: ' + str(totalDocuments(getAllCategoria()))
 
-	for categoria in categoriasGroups:
+	for categoria in getAllCategoria():
 		if categoria['nombre'] not in categoriasUrls:
 			productos = getDocumentByCategoria(categoria['nombre'])
 			for descripcion in [productos['descripcion']]:

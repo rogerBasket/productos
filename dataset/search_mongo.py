@@ -10,5 +10,6 @@ def getTotalResultsByCategoria(categoria):
 	try:
 		return search.find({'categoria':categoria},{'_id':0,'categoria':0,
 			'descripcion.nombre':0}).next()['descripcion']
-	except StopIteration:
+	except StopIteration as si:
+		print si
 		return None

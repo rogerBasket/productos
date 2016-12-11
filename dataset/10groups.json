@@ -1,0 +1,40 @@
+{
+	"nombre": "pantalon",
+	"clase": 0
+}
+{
+	"nombre": "rastrillo",
+	"clase": 1
+}
+{
+	"nombre": "tenis",
+	"clase": 2
+}
+{
+	"nombre": "balon",
+	"clase": 3
+}
+{
+	"nombre": "camara digital",
+	"clase": 4
+}
+{
+	"nombre": "bicicleta",
+	"clase": 5
+}
+{
+	"nombre": "audifonos",
+	"clase": 6
+}
+{
+	"nombre": "mochilas",
+	"clase": 7
+}
+{
+	"nombre": "celulares",
+	"clase": 8
+}
+{
+	"nombre": "llanta",
+	"clase": 9
+}

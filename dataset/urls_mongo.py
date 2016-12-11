@@ -38,7 +38,7 @@ def getInfoUrlsByCategoria(categoria):
 
 def getFirstByCategoria(categoria):
 	try:
-		return urls.find({'categoria':'refresco'},{'_id':0,'kind':0,'url':0,'context':0,
+		return urls.find({},{'_id':0,'kind':0,'url':0,'context':0,
 			'queries':0,'searchInformation':0, 'items.kind':0,'items.title':0,
 			'items.displayLink':0,'items.htmlTitle':0,'items.snippet':0,
 			'items.htmlSnippet':0, 'items.image':0,'items.fileFormat':0,'categoria':0,
