@@ -13,7 +13,8 @@ augmentation/
 10productos/
 db.sqlite3
 manage.py
-rest/
+rest/migrations/
+rest/static/tmp/
 ws/
 *.pyc
 10augmentation/
