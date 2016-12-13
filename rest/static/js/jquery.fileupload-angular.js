@@ -67,7 +67,7 @@
                         function () {
                             var file = data.files[0],
                                 submit = function () {
-                                    scope.colaClass.push(0);
+                                    scope.colaClass.push(file.name);
                                     return data.submit();
                                 },
                                 i;
@@ -82,7 +82,9 @@
                                 return data.state();
                             };
                             file.$progress = function () {
-                                return data.progress();
+                                var aux = data.progress();
+                                //console.log(aux);
+                                return aux;
                             };
                             file.$response = function () {
                                 return data.response();
@@ -215,7 +217,14 @@
                 };
                 $scope.disabled = !$window.jQuery.support.fileInput;
                 $scope.queue = $scope.queue || [];
+
+                // variables angular controller
                 $scope.colaClass = [];
+                $scope.multipleData = [];
+                $scope.learningData = [];
+                $scope.solicitud = [];
+                $scope.tiempo = [0];
+
                 $scope.clear = function (files) {
                     var queue = this.queue,
                         i = queue.length,

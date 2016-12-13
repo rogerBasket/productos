@@ -1,9 +1,9 @@
 from Clasificacion import Clasificacion
-import constantes as cnt
+from constantes import *
 
 print 'singleton clasificacion'
 
-__clazz = Clasificacion(cnt.RUTA,cnt.IMAGE_WIDTH,cnt.IMAGE_HEIGHT,cnt.DEPLOY_FILE,cnt.MODEL_FILE,cnt.MEAN_FILE)
+__clazz = Clasificacion(TEST_PATH,IMAGE_WIDTH,IMAGE_HEIGHT,DEPLOY_FILE,MODEL_FILE,MEAN_FILE)
 __clazz.start()
 
 __net = __clazz.getNet()

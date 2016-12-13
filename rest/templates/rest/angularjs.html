@@ -85,16 +85,16 @@
                 <!-- The fileinput-button span is used to style the file input field as button -->
                 <span class="btn btn-success fileinput-button" ng-class="{disabled: disabled}">
                     <i class="glyphicon glyphicon-plus"></i>
-                    <span>Add files...</span>
+                    <span>Agregar...</span>
                     <input type="file" name="file" multiple ng-disabled="disabled">
                 </span>
                 <button type="button" class="btn btn-primary start" data-ng-click="submit()">
                     <i class="glyphicon glyphicon-upload"></i>
-                    <span>Start upload</span>
+                    <span>Iniciar carga</span>
                 </button>
                 <button type="button" class="btn btn-warning cancel" data-ng-click="cancel()">
                     <i class="glyphicon glyphicon-ban-circle"></i>
-                    <span>Cancel upload</span>
+                    <span>Cancelar carga</span>
                 </button>
                 <!-- The loading indicator is shown during file processing -->
                 <div class="fileupload-loading"></div>
@@ -134,59 +134,108 @@
                 <td>
                     <button type="button" class="btn btn-primary start" data-ng-click="file.$submit()" data-ng-hide="!file.$submit">
                         <i class="glyphicon glyphicon-upload"></i>
-                        <span>Start</span>
+                        <span>Iniciar</span>
                     </button>
                     <button type="button" class="btn btn-warning cancel" data-ng-click="file.$cancel()" data-ng-hide="!file.$cancel">
                         <i class="glyphicon glyphicon-ban-circle"></i>
-                        <span>Cancel</span>
+                        <span>Cancelar</span>
                     </button>
                     <button data-ng-controller="FileDestroyController" type="button" class="btn btn-danger destroy" data-ng-click="file.$destroy()" data-ng-hide="!file.$destroy">
                         <i class="glyphicon glyphicon-trash"></i>
-                        <span>Delete</span>
+                        <span>Eliminar</span>
                     </button>
                     <button data-ng-controller="FileClassificationController" type="button" class="btn btn-primary start" data-ng-click="file.$classification()" data-ng-hide="!file.$classification">
                         <i class="glyphicon glyphicon-picture"></i>
                         <span>Clasificar</span>
                     </button>
+                    <button data-ng-controller="FileLearningController" type="button" class="btn btn-success fileinput-button" data-ng-click="file.$learning()" data-ng-hide="!file.$learning">
+                        <i class="glyphicon glyphicon-cloud"></i>
+                        <span>Aprendizaje</span>
+                    </button>
                 </td>
             </tr>
         </table>
-        {% endverbatim %}
 
         <div class="row fileupload-buttonbar">
             <div class="col-lg-7">
-                <button data-ng-controller="FileClassificationAllController" type="button" class="btn btn-primary start" data-ng-click="all()" data-ng-hide="colaClass.length === 0">
+                <button data-ng-controller="FileMultipleClassificationController" type="button" class="btn btn-primary start" data-ng-click="multiple()" data-ng-hide="colaClass.length === 0">
                     <i class="glyphicon glyphicon-picture"></i>
                     <span>Clasificar...</span>
-                </button>
-                <!-- The loading indicator is shown during file processing -->
-                <div class="fileupload-loading"></div>
-            </div>
-            <!-- The global progress information -->
-            <div class="col-lg-5 fade" data-ng-class="{in: active()}">
-                <!-- The global progress bar -->
-                <div class="progress progress-striped active" data-file-upload-progress="progress()"><div class="progress-bar progress-bar-success" data-ng-style="{width: num + '%'}"></div></div>
-                <!-- The extended global progress information -->
-                <div class="progress-extended">&nbsp;</div>
+                </button>            
             </div>
         </div>
 
+        <br/>
+
+        <div class="panel panel-default" >
+            <div class="panel-heading">
+                <h3 class="panel-title">Clasificación de objetos</h3>
+            </div>
+            <div class="panel-body">
+                <div data-ng-if="solicitud.length !== 0">
+                    <span>Procesando ...</span>
+                </div>
+                <div data-ng-if="multipleData.length !== 0">
+                    <p><span>Tiempo de procesamiento: {{tiempo[0]}} segundos</span></p>
+                    <table class="table table-striped files ng-cloak">
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Clase</th>    
+                            <th>Probabilidad</th>    
+                        </tr>
+                        <tr data-ng-repeat="data in multipleData">
+                            <td data-ng-switch data-on="!!data.thumbnailUrl">
+                                <div class="preview" data-ng-switch-when="true">
+                                    <a data-ng-href="{{data.url}}" title="{{data.imagen}}" download="{{data.imagen}}" data-gallery><img data-ng-src="{{data.thumbnailUrl}}" alt=""></a>
+                                </div>
+                                <div class="preview" data-ng-switch-default data-file-upload-preview="data"></div>
+                            </td>
+                            <td>
+                                <p>{{data.clase}}</p>
+                            </td>
+                            <td>
+                                <p>{{data.info}}</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div data-ng-if="learningData.length !== 0">
+                    <p><span>Tiempo de procesamiento: {{tiempo[0]}} segundos</span></p>
+                    <table class="table table-striped files ng-cloak">
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Clase</th>
+                            <th>Aprendizaje</th>    
+                        </tr>
+                        <tr data-ng-repeat="data in learningData">
+                            <td data-ng-switch data-on="!!data.thumbnailUrl">
+                                <div class="preview" data-ng-switch-when="true">
+                                    <a data-ng-href="{{data.url}}" title="{{data.imagen}}" download="{{data.imagen}}" data-gallery><img data-ng-src="{{data.thumbnailUrl}}" alt=""></a>
+                                </div>
+                                <div class="preview" data-ng-switch-default data-file-upload-preview="data"></div>
+                            </td>
+                            <td>
+                                <p>{{data.clase}}</p>
+                            </td>
+                            <td>
+                                <span data-ng-repeat="features in data.learning">
+                                    <span data-ng-switch data-on="!!features.thumbnailUrl">
+                                <div class="preview" data-ng-switch-when="true">
+                                    <a data-ng-href="{{features.url}}" title="{{features.layer}}" download="{{features.layer}}" data-gallery><img data-ng-src="{{features.thumbnailUrl}}" alt=""></a>
+                                </div>
+                                <div class="preview" data-ng-switch-default data-file-upload-preview="features"></div></span></span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        {% endverbatim %}
     </form>
 
-    <br>
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h3 class="panel-title">Demo Notes</h3>
-        </div>
-        <div class="panel-body">
-            <ul>
-                <li>You can <strong>drag &amp; drop</strong> files from your desktop on this webpage (see <a href="https://github.com/blueimp/jQuery-File-Upload/wiki/Browser-support">Browser support</a>).</li>
-                <li>Please refer to the <a href="https://github.com/blueimp/jQuery-File-Upload">project website</a> and <a href="https://github.com/blueimp/jQuery-File-Upload/wiki">documentation</a> for more information.</li>
-                <li>Built with Twitter's <a href="http://twitter.github.com/bootstrap/">Bootstrap</a> CSS framework and Icons from <a href="http://glyphicons.com/">Glyphicons</a>.</li>
-            </ul>
-        </div>
-    </div>
 </div>
+
 <!-- The blueimp Gallery widget -->
 <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" data-filter=":even">
     <div class="slides"></div>

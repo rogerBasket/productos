@@ -19,10 +19,11 @@ class Clasificacion:
 		self.__mean = mean
 
 	def start(self):
-		imagenes = glob.glob(self.__ruta + '*.jpg')
+		imagenes = glob.glob(self.__ruta + '/*.jpg')
 		aleatorio = np.random.randint(len(imagenes))
 		imagen = imagenes[aleatorio]
-		#print imagen
+		
+		print imagen
 
 		#self.__net, self.__transformer = loadNet1(self.__deploy,self.__model,self.__mean)
 		self.__net, self.__transformer = loadNet2(self.__deploy,self.__model,self.__mean,self.__ancho,self.__alto)

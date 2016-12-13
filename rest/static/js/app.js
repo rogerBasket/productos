@@ -21,8 +21,9 @@
         url = '/productos/uploadImage',
         urlview = '/productos/view/';
 
+    //angular.module('demo', ['angular-loading-bar', 'ngAnimate'])
     angular.module('demo', [
-        'blueimp.fileupload'
+        'blueimp.fileupload',
     ])
         .config([
             '$httpProvider', 'fileUploadProvider',
@@ -74,7 +75,11 @@
             '$scope', '$http',
             function ($scope, $http) {
                 var file = $scope.file,
+                    colaClass = $scope.colaClass,
+                    multipleData = $scope.multipleData,
+                    learningData = $scope.learningData,
                     state;
+
                 if (file.url) {
                     file.$state = function () {
                         return state;
@@ -90,7 +95,22 @@
                             function () {
                                 state = 'resolved';
                                 $scope.clear(file);
-                                $scope.colaClass.splice(0,1);
+
+                                for(var i = 0; i < colaClass.length; i++) {
+                                    if(colaClass[i] === file.name) {
+                                        colaClass.splice(i,1);
+                                        break;
+                                    }
+                                }
+
+                                for(var i = 0; i < multipleData.length; i++) {
+                                    if(multipleData[i].imagen === file.name) {
+                                        multipleData.splice(i,1);
+                                        break;
+                                    }
+                                }
+
+                                learningData.splice(0,1);
                             },
                             function () {
                                 state = 'rejected';
@@ -109,7 +129,11 @@
             '$scope', '$http',
             function ($scope, $http) {
                 var file = $scope.file,
-                state;
+                    solicitud = $scope.solicitud,
+                    multipleData = $scope.multipleData,
+                    learningData = $scope.learningData,
+                    tiempo = $scope.tiempo,
+                    state;
 
                 if (file.url) {
                     file.$state = function() {
@@ -117,6 +141,10 @@
                     }
                     file.$classification = function() {
                         state = 'pending';
+                        solicitud.push(0);
+                        multipleData.splice(0,multipleData.length);
+                        learningData.splice(0,learningData.length);
+
                         var arrayUrl = file.deleteUrl.split('/');
                         arrayUrl[2] = "classificationImage";
 
@@ -130,7 +158,18 @@
                         });
 
                         peticion.success(function(data) {
+                            solicitud.splice(0,1);
+
+                            //multipleData.push(data);
+
                             console.log(data);
+
+                            tiempo.splice(0,1);
+                            tiempo.push(data.tiempo);
+
+                            for(var i = 0; i < data.multiple.length; i++) {
+                                multipleData.push(data.multiple[i]);
+                            }
                         });
                         
                         return peticion.then(
@@ -146,11 +185,108 @@
             }
         ])
 
-        .controller('FileClassificationAllController', [
+        .controller('FileMultipleClassificationController', [
             '$scope', '$http',
             function ($scope, $http) {
-                $scope.all = function() {
-                    console.log('all controller')
+                var dataImages = $scope.colaClass,
+                    solicitud = $scope.solicitud,
+                    multipleData = $scope.multipleData,
+                    learningData = $scope.learningData,
+                    tiempo = $scope.tiempo;
+
+                $scope.multiple = function() {
+                    solicitud.push(0);
+                    multipleData.splice(0,multipleData.length);
+                    learningData.splice(0,learningData.length);
+
+                    console.log(dataImages);
+
+                    var peticion = $http({
+                        url: 'multipleClassification',
+                        method:'POST',
+                        data: dataImages,
+                        xsrfHeaderName: 'X-CSRFToken',
+                        xsrfCookieName: 'csrftoken'
+                    });
+
+                    peticion.success(function(data) {
+                        solicitud.splice(0,1);
+
+                        //multipleData.push(data);
+
+                        console.log(data);
+
+                        tiempo.splice(0,1);
+                        tiempo.push(data.tiempo);
+
+                        for(var i = 0; i < data.multiple.length; i++) {
+                            multipleData.push(data.multiple[i]);
+                        }
+                    });
+                }
+            }
+        ])
+
+        .controller('FileLearningController', [
+            '$scope', '$http',
+            function ($scope, $http) {
+                var file = $scope.file,
+                    solicitud = $scope.solicitud,
+                    multipleData = $scope.multipleData,
+                    learningData = $scope.learningData,
+                    tiempo = $scope.tiempo,
+                    state;
+
+                if (file.url) {
+                    file.$state = function() {
+                        return state;
+                    }
+                    file.$learning = function() {
+                        state = 'pending';
+                        solicitud.push(0);
+                        multipleData.splice(0,multipleData.length);
+                        learningData.splice(0,learningData.length);
+
+                        var arrayUrl = file.deleteUrl.split('/');
+                        arrayUrl[2] = "learningImage";
+
+                        var newUrl = arrayUrl.join('/');
+
+                        var dataLayers = ['conv1','conv2','conv3','conv4','conv5'];
+
+                        /*                        
+                        'pool1','pool2','pool5',
+                        'norm1','norm2'];
+                        */
+
+                        var peticion = $http({
+                            url: newUrl,
+                            method: 'POST',
+                            data: dataLayers,
+                            xsrfHeaderName: 'X-CSRFToken',
+                            xsrfCookieName: 'csrftoken'
+                        });
+
+                        peticion.success(function(data) {
+                            solicitud.splice(0,1);
+
+                            console.log(data);
+
+                            tiempo.splice(0,1);
+                            tiempo.push(data.tiempo);
+
+                            learningData.push(data);
+                        });
+                        
+                        return peticion.then(
+                            function() {
+                                state = 'resolved';
+                            },
+                            function() {
+                                state = 'rejected';
+                            }
+                        );
+                    }
                 }
             }
         ]);

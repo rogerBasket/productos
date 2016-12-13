@@ -2,9 +2,13 @@
 from django.http import HttpResponse
 import json
 
+from .constantes_service import *
+
 MIMEANY = '*/*'
 MIMEJSON = 'application/json'
 MIMETEXT = 'text/plain'
+
+RUTA = '/' + STATIC_PATH_SERVER + TEMP
 
 def response_mimetype(request):
     """response_mimetype -- Return a proper response mimetype, accordingly to
@@ -15,6 +19,23 @@ def response_mimetype(request):
     can_json |= MIMEANY in request.META['HTTP_ACCEPT']
     return MIMEJSON if can_json else MIMETEXT
 
+def response_classification(prob, labels, filename):
+    info = {}
+    
+    for i, j in zip(labels,prob):
+        info[i] = str(j)
+
+    print info
+
+    response = {
+        'url': RUTA + filename,
+        'imagen': filename,
+        'clase': labels[prob.argmax()],
+        'thumbnailUrl': RUTA + filename,
+        'info': info
+    }
+
+    return response
 
 class JSONResponse(HttpResponse):
     """JSONResponse -- Extends HTTPResponse to handle JSON format response.

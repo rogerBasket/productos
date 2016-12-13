@@ -62,14 +62,18 @@ def lenImage(image):
 	return os.stat(PATH_SERVER + STATIC_PATH_SERVER + TEMP + image).st_size
 
 def reset():
-	archivos = glob.glob(PATH_SERVER + STATIC_PATH_SERVER + TEMP + '*')
 	flag = True
 
-	try:
-		for archivo in archivos:
-			os.remove(os.path.abspath(archivo))
-	except OSError as ose:
-		print ose
-		flag = False
+	if os.path.exists(os.path.abspath(PATH_SERVER + STATIC_PATH_SERVER + TEMP)):
+		archivos = glob.glob(PATH_SERVER + STATIC_PATH_SERVER + TEMP + '*')
 
+		try:
+			for archivo in archivos:
+				os.remove(os.path.abspath(archivo))
+		except OSError as ose:
+			print ose
+			flag = False
+	else:
+		os.makedirs(os.path.abspath(PATH_SERVER + STATIC_PATH_SERVER + TEMP))
+	
 	return flag

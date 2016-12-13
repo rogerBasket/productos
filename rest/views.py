@@ -5,10 +5,17 @@ from rest_framework.parsers import FormParser, MultiPartParser
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from .response import JSONResponse, response_mimetype
-from .constantes import *
+from .response import JSONResponse, response_mimetype, response_classification
+from .ServerException import ServerException
+from .constantes_service import *
+from .constantes_network import LEARN
+from .SingletonLabels import *
+from . import network
+from . import utils
 
-import utils
+import sys
+import time
+
 
 formato = {
 	'jpg': 'image/jpg',
@@ -89,13 +96,102 @@ class DeleteImage(APIView):
 
 class ClassificationImage(APIView):
 
-	def post(self, request, filename):
+	def post(self, request, filename, format = None):
 		print 'ClassificationImage - post'
 
-		return JSONResponse({'ok': 1})
+		try:
+			inicio = time.time()
+
+			prob = network.prediction(filename)
+
+			'''
+			if prob == None:
+				raise ServerException('error al clasificar la imagen: ' + filename)
+			'''
+
+			labels = getLabels()
+		
+			return JSONResponse({
+					'tiempo': time.time() - inicio,
+					'multiple': [response_classification(prob,labels,filename)]
+				})
+		except:
+			print 'excepcion no controlada en el servidor', sys.exc_info()
+			raise
+
+class MultipleClassification(APIView):
+
+	def post(self, request, format = None):
+		print 'MultipleClassificationImage - post'
+
+		#print request.data
+
+		try:
+			listFiles = []
+			for i in request.data:
+				listFiles.append(i.encode('utf-8'))
+
+			inicio = time.time()
+
+			probs = network.multiplePredictions(listFiles)
+
+			labels = getLabels()
+
+			multiple_resp = []
+			for prob, filename in zip(probs,listFiles):
+				print prob.argmax(), labels[prob.argmax()]
+				
+				multiple_resp.append(response_classification(prob,labels,filename))
+
+			return JSONResponse({
+					'tiempo': time.time() - inicio,
+					'multiple': multiple_resp
+				})
+		except:
+			print 'excepcion no controlado en el servidor', sys.exc_info()
+			raise
+
+class LearningImage(APIView):
+
+	def post(self, request, filename, format = None):
+		print 'LearningImage - post'
+
+		#print request.data
+
+		try:
+			dataLayers = []
+			for i in request.data:
+				dataLayers.append(i.encode('utf-8'))
+
+			inicio = time.time()
+
+			features, prob = network.backpropagation(filename,dataLayers)
+
+			labels = getLabels()
+
+			learning = []
+			for i, j in zip(dataLayers,features):
+				learning.append({
+						'layer': i,
+						'url': '/' + STATIC_PATH_SERVER + LEARN + j,
+						'thumbnailUrl': '/' + STATIC_PATH_SERVER + LEARN + j
+					})
+
+			return JSONResponse({
+					'id': 'learning',
+					'imagen': filename,
+					'clase': labels[prob.argmax()],
+					'url': '/' + STATIC_PATH_SERVER + TEMP + filename,
+					'thumbnailUrl': '/' + STATIC_PATH_SERVER + TEMP + filename,
+					'tiempo': time.time() - inicio,
+					'learning': learning
+				})
+		except:
+			print 'excepcion no contralado en el servidor', sys.exc_info()
+			raise
 
 def index(request):
 	if not utils.reset():
 		return JSONResponse({'error': 'Error en el directorio "tmp" del servidor'})
 
-	return render(request, 'rest/' + PLUGIN_UPLOAD_IMAGES + '/angularjs.html', {})
+	return render(request, 'rest/angularjs.html', {})
