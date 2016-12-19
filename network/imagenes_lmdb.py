@@ -40,8 +40,9 @@ def renombrar(function, carpeta = '.'):
 		function(i,carpeta,j)
 
 def main(argv):
-	carpetas = glob.glob(RUTA+'/images/*')
+	#carpetas = glob.glob(RUTA+'/test2/*')
 	#carpetas = ['cafe']
+	carpetas = [RUTA + '/test2']
 
 	for c in carpetas:
 		if os.path.isdir(c):

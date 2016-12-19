@@ -172,7 +172,7 @@ class LearningImage(APIView):
 			learning = []
 			for i, j in zip(dataLayers,features):
 				learning.append({
-						'layer': i,
+						'layer': j,
 						'url': '/' + STATIC_PATH_SERVER + LEARN + j,
 						'thumbnailUrl': '/' + STATIC_PATH_SERVER + LEARN + j
 					})

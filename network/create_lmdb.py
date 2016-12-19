@@ -13,58 +13,10 @@ from caffe.io import array_to_datum
 from EqualizeHistogram import EqualizeHistogram
 from constantes import *
 from SingletonLMDB import *
+from objetos import productos
 
 clase = -1
 label = 0
-
-'''
-productos = {
-	'refresco' : 0,
-	'yogur': 1,
-	'boing': 2,
-	'desodorante': 3,
-	'papas': 4,
-	'jabon': 5,
-	'pasta dental': 6,
-	'leche': 7,
-	'chocolate': 8,
-	'cereal': 9,
-	'aceite cocina': 10,
-	'aceite automovil': 11,
-	'mermelada': 12,
-	'mayonesa': 13,
-	'catsup': 14,
-	'mostaza': 15,
-	'shampoo': 16,
-	'talco': 17,
-	'crema corporal': 18,
-	'gel': 19,
-	'pañales': 20,
-	'crema': 21,
-	'galletas': 22,
-	'atun': 23,
-	'palomitas': 24,
-	'sal': 25,
-	'cajeta': 26,
-	'cafe': 27,
-	'condones': 28,
-	'cigarros': 29,
-	'tequila': 30
-}
-'''
-
-productos = {
-	'pantalon': 0,
-	'rastrillo': 1,
-	'tenis': 2,
-	'balon': 3,
-	'camara digital': 4,
-	'bicicleta': 5,
-	'audifonos': 6,
-	'mochilas': 7,
-	'celulares': 8,
-	'llanta': 9
-}
 
 def getImagesAndClases():
 	carpetas = glob.glob(os.path.abspath(RUTA) + AUGMENTATION_PATH + '/*')
@@ -110,44 +62,50 @@ def createDB(db, funcion):
 
 	label = 0
 
-	for imagenes in getImagesAndClases():
-		tx = db.begin(write=True)
-		punt = None
+	#for imagenes in getImagesAndClases():
+	imagenes = glob.glob(os.path.abspath(RUTA) + AUGMENTATION_PATH + '/*.jpeg')
+	random.shuffle(imagenes)
 
-		for imagen in imagenes:
-			try:
-				label += 1
+	tx = db.begin(write=True)
+	punt = None
 
-				if funcion(label,SCORE):
-					im = Image.open(imagen)
-					punt = im.fp
-					im = im.resize((IMAGE_WIDTH,IMAGE_HEIGHT))
+	for imagen in imagenes:
+		try:
+			label += 1
 
-					if im.mode != 'RGB':
-						im = im.convert('RGB')
+			if funcion(label,SCORE):
+				im = Image.open(imagen)
+				punt = im.fp
+				im = im.resize((IMAGE_WIDTH,IMAGE_HEIGHT))
 
-					x = np.array(im.getdata()).reshape(im.size[1],im.size[0],3)
-					datum = array_to_datum(np.transpose(x,(2,0,1)),clase)
+				if im.mode != 'RGB':
+					im = im.convert('RGB')
 
-					print label, imagen
-					tx.put('{:08}'.format(label),datum.SerializeToString())
-			
-				if (label+1) % COMMIT == 0:
-					tx.commit()
-					tx = db.begin(write=True)
-					print '------- commit -------'
+				etiqueta = os.path.basename(imagen).split('_')[0]
+				clase = productos[etiqueta]
 
-			except IOError as ioe:
-				print 'Imagen:', imagen
-				print ioe
-			except:
-				print 'Imagen:', imagen
-				print 'error desconocido'
-			finally:
-				if punt != None and not punt.closed:
-					punt.close()
+				x = np.array(im.getdata()).reshape(im.size[1],im.size[0],3)
+				datum = array_to_datum(np.transpose(x,(2,0,1)),clase)
 
-		tx.commit()
+				print label, etiqueta, clase, imagen
+				tx.put('{:08}'.format(label),datum.SerializeToString())
+		
+			if (label+1) % COMMIT == 0:
+				tx.commit()
+				tx = db.begin(write=True)
+				print '------- commit -------'
+
+		except IOError as ioe:
+			print 'Imagen:', imagen
+			print ioe
+		except:
+			print 'Imagen:', imagen
+			print 'error desconocido'
+		finally:
+			if punt != None and not punt.closed:
+				punt.close()
+
+	tx.commit()
 
 def main():
 	if os.path.exists(RUTA):
